@@ -14,13 +14,13 @@ const productsDataByLanguage = {
       subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
       description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
       image: product4,
-      specs: ['MgO %16', 'SO₃ %32', 'Zn %0.2', 'B %0.1', 'Mn %0.1'],
+      specs: ['MgO %16', 'SO₃ %32',  'B %0.1', 'Mn %0.1' , 'Zn %0.2'],
       benefits: [
         'MgO %16 (Magnezyum Oksit)',
         'SO₃ %32 (Kükürt Trioksit)',
-        'Zn %0.2 (Çinko)',
         'B %0.1 (Bor)',
         'Mn %0.1 (Mangan)',
+        'Zn %0.2 (Çinko)',
         'EC Gübre Kalite',
         'Toprakta yavaş çözünür – Hızla yıkanmaz',
         'FIRFIR ve MİBZER ile atılır',
@@ -51,12 +51,13 @@ const productsDataByLanguage = {
       subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
       description: 'Yüksek saflıkta kristal magnezyum sülfat - Endüstriyel ve tarımsal kullanım',
       image: product2,
-      specs: ['MgO %16', 'SO₃ %32'],
+      specs: ['MgO %16', 'SO₃ %32', 'TEKNİK KALİTE'],
       benefits: [
         'Kristal form, hızlı çözünürlük',
         'Endüstriyel ve tarımsal kullanım',
         'MgO %16, SO₃ %32 içerik',
-        'Premium kalite standartları'
+        'Premium kalite standartları',
+        'TEKNİK KALİTE'
       ],
       detailedDescription: `Kristal yapısı sayesinde suda hızla çözünür ve bitkiler tarafından kolayca alınabilir.`,
       usage: [
@@ -183,9 +184,9 @@ const productsDataByLanguage = {
       subtitle: 'Çinko Sülfat Monohidrat',
       description: 'Çinko sülfat monohidrat - Çinko eksikliği için ideal',
       image: product6,
-      specs: ['Zn %36'],
+      specs: ['Zn %21'],
       benefits: [
-        'Zn %36 (Çinko)',
+        'Zn %21 (Çinko)',
         'Monohidrat form',
         'Hızlı etki ve yüksek çözünürlük',
         'Kristal yapı'

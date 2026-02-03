@@ -80,7 +80,7 @@ export const translations = {
         subtitle: 'Çinko Sülfat Monohidrat',
         benefits: [
           'Çinko eksikliği için ideal',
-          'Zn %36 içerik',
+          'Zn %21 içerik',
           'Kristal form, hızlı etki',
           'Monohidrat formül'
         ]
@@ -173,7 +173,7 @@ export const translations = {
           name: 'Agrosol*Max® Çinko Tuzu',
           type: 'Çinko Gübresi',
           description: 'Çinko sülfat monohidrat',
-          specs: ['Zn %36', 'Monohidrat', 'Hızlı Etki', 'Kristal Form']
+          specs: ['Zn %21', 'Monohidrat', 'Hızlı Etki', 'Kristal Form']
         }
       ]
     },
@@ -188,7 +188,8 @@ export const translations = {
       newsletterSuccess: "Başarıyla abone oldunuz",
       rights: "Tüm hakları saklıdır.",
       istanbul: "İstanbul Ofis",
-      kutahya: "Kütahya Fabrika"
+      kutahya: "Kütahya Fabrika",
+      companyDescription: "Gübre ve kimya sektöründe 40 yılı aşkın deneyimimizle güvenilir çözüm ortağınız."
     },
     slider: {
       slide1Title: "Mısır Tarlaları",
@@ -446,7 +447,8 @@ export const translations = {
       newsletterSuccess: "Successfully subscribed",
       rights: "All rights reserved.",
       istanbul: "Istanbul Office",
-      kutahya: "Kutahya Factory"
+      kutahya: "Kutahya Factory",
+      companyDescription: "Your trusted solution partner in the fertilizer and chemical industry with over 40 years of experience."
     },
     slider: {
       slide1Title: "Corn Fields",
@@ -704,7 +706,8 @@ export const translations = {
       newsletterSuccess: "Успішно підписано",
       rights: "Всі права захищені.",
       istanbul: "Офіс у Стамбулі",
-      kutahya: "Завод у Кютахья"
+      kutahya: "Завод у Кютахья",
+      companyDescription: "Ваш надійний партнер у галузі добрив та хімії з понад 40-річним досвідом."
     },
     slider: {
       slide1Title: "Кукурудзяні поля",

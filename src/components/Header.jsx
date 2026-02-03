@@ -45,7 +45,7 @@ const Header = ({ language, setLanguage, translations }) => {
                 className="h-20 w-auto object-contain bg-white px-3 py-2 rounded"
               />
               <h1 className="text-3xl font-bold text-white hidden lg:block">
-                Akfermag <span className="text-akfermag-green">Kimya</span>
+                Akfermag <span className="text-akfermag-white">Kimya</span>
               </h1>
             </div>
             

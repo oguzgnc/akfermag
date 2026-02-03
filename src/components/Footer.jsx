@@ -22,7 +22,7 @@ const Footer = ({ translations }) => {
               </div>
             </div>
             <p className="text-gray-400 mb-4 md:mb-6 leading-relaxed text-sm md:text-base">
-              Gübre ve kimya sektöründe 40 yılı aşkın deneyimimizle güvenilir çözüm ortağınız.
+              {translations.footer.companyDescription}
             </p>
             <div className="flex gap-2 md:gap-3">
               <a href="https://www.facebook.com/profile.php?id=100076236462379" target="_blank" rel="noopener noreferrer" className="w-9 h-9 md:w-10 md:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-akfermag-blue transition-colors">

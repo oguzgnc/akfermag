@@ -191,14 +191,14 @@ export const productsData = [
     subtitle: 'Çinko Sülfat Monohidrat',
     description: 'Çinko sülfat monohidrat - Çinko eksikliği için ideal',
     image: product6,
-    specs: ['Zn %36', 'Monohidrat', 'Hızlı Etki', 'Kristal Form'],
+    specs: ['Zn %21', 'Monohidrat', 'Hızlı Etki', 'Kristal Form'],
     benefits: [
-      'Zn %36 (Çinko)',
+      'Zn %21 (Çinko)',
       'Monohidrat form',
       'Hızlı etki ve yüksek çözünürlük',
       'Kristal yapı'
     ],
-    detailedDescription: `Agrosol*Max® Çinko Tuzu, Zn %36 içeren çinko sülfat monohidrat gübresidir.
+    detailedDescription: `Agrosol*Max® Çinko Tuzu, Zn %21 içeren çinko sülfat monohidrat gübresidir.
     Kristal formda üretilen bu ürün, bitkilerin çinko ihtiyacını karşılamak için özel olarak formüle edilmiştir.
     
     Çinko, bitki gelişimi, enzim aktivitesi ve hormon sentezi için kritik öneme sahip bir mikro elementtir.
