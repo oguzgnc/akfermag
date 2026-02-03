@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import misir1 from '../assets/mısırr.jpeg';
-import misir2 from '../assets/mısırrr.jpeg';
-import pancar1 from '../assets/pancarr.jpeg';
-import pancar2 from '../assets/pancarrr.jpeg';
-import granul1 from '../assets/granül.jpeg';
-import granul2 from '../assets/granüll.png';
+import misir1 from '../assets/misir.jpeg';
+import misir2 from '../assets/misir2.jpeg';
+import pancar1 from '../assets/pancar.jpeg';
+import pancar2 from '../assets/pancar2.jpeg';
+import granul1 from '../assets/granul.jpeg';
+import granul2 from '../assets/granul.png';
 
 const ImageSlider = ({ translations }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

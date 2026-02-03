@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar, Target, Users } from 'lucide-react';
 import { Card, CardContent } from './ui/Card';
-import akfermagbImage from '../assets/akfermagb..jpg';
+import akfermagbImage from '../assets/akfermag-bg.jpg';
 
 const AboutSection = ({ translations }) => {
   const highlights = [

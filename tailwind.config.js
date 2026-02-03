@@ -13,7 +13,7 @@ export default {
         'akfermag-light-blue': '#E3F2FD',
       },
       fontFamily: {
-        'sans': ['Comic Sans MS', 'Comic Sans', 'cursive'],
+        'sans': ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'],
       },
     },
   },
