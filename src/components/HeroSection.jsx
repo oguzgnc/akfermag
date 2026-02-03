@@ -4,7 +4,7 @@ import { Leaf, Droplets, Sparkles, CheckCircle, ArrowRight, ChevronLeft, Chevron
 import { Button } from './ui/Button';
 import ProductName from './ProductName';
 import product1 from '../assets/AGROSOL MAX GRANULOUS 17 33 TÜRKÇE ÖN YÜZ.png';
-import product2 from '../assets/AKMAG SH_ÖN YÜZ.png';
+import product2 from '../assets/AGROSOL MAX FULLY WATER.png';
 import product3 from '../assets/AGROSOL MAX MIX ÖN YÜZ.png';
 import product4 from '../assets/AGROSOL MAAX TOPMIX.png';
 import product5 from '../assets/AGROSOL MAX 17+33 ÖN YÜZ.png';

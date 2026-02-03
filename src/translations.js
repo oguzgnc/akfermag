@@ -28,19 +28,8 @@ export const translations = {
         ]
       },
       {
-        id: 'agrosol-max-17',
-        name: 'Agrosol*Max®-17',
-        subtitle: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
-        benefits: [
-          'MgO %17 (Magnezyum)',
-          'SO₃ %33 (Kükürt)',
-          'EC Gübre Kalite',
-          'FIRFIR ile kolay uygulama'
-        ]
-      },
-      {
-        id: 'akmag-sh',
-        name: 'AKMAG SH',
+        id: 'agrosol-max-fully',
+        name: 'Agrosol*Max®',
         subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
         benefits: [
           'Kristal form, hızlı çözünürlük',
@@ -49,6 +38,7 @@ export const translations = {
           'Premium kalite standartları'
         ]
       },
+
       {
         id: 'agrosol-max-mix',
         name: 'Agrosol*Max® Mix',
@@ -60,6 +50,19 @@ export const translations = {
           'EC Gübre Kalite'
         ]
       },
+      {
+        id: 'agrosol-max-17',
+        name: 'Agrosol*Max®-17',
+        subtitle: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
+        benefits: [
+          'MgO %17 (Magnezyum)',
+          'SO₃ %33 (Kükürt)',
+          'EC Gübre Kalite',
+          'FIRFIR ile kolay uygulama'
+        ]
+      },
+      
+      
       {
         id: 'agrosol-max',
         name: 'Agrosol*Max®',
@@ -138,8 +141,8 @@ export const translations = {
           specs: ['MgO %17', 'SO₃ %33', 'EC Gübre', 'FIRFIR ile atılır']
         },
         {
-          id: 'akmag-sh',
-          name: 'AKMAG SH',
+          id: 'agrosol-max-fully',
+          name: 'Agrosol*Max®',
           type: 'Magnezyum Sülfat',
           description: 'Yüksek saflıkta kristal magnezyum sülfat',
           specs: ['MgO %16', 'SO₃ %32', 'Kristal Form', 'Yüksek Saflık']
@@ -187,6 +190,20 @@ export const translations = {
       istanbul: "İstanbul Ofis",
       kutahya: "Kütahya Fabrika"
     },
+    slider: {
+      slide1Title: "Mısır Tarlaları",
+      slide1Desc: "Verimli mısır üretimi için özel çözümler",
+      slide2Title: "Şeker Pancarı",
+      slide2Desc: "Kaliteli şeker pancarı üretimi",
+      slide3Title: "Granül Gübreler",
+      slide3Desc: "Yüksek kaliteli granül gübre çözümleri",
+      slide4Title: "Modern Tarım",
+      slide4Desc: "Teknoloji ile donatılmış tarım alanları",
+      slide5Title: "Verimli Topraklar",
+      slide5Desc: "Sağlıklı toprak, kaliteli ürün",
+      slide6Title: "Profesyonel Ürünler",
+      slide6Desc: "Tarımsal başarı için güçlü ortaklık"
+    },
     productDetail: {
       backButton: "Ana Sayfaya Dön",
       notFound: "Ürün Bulunamadı",
@@ -196,6 +213,17 @@ export const translations = {
       applicationRates: "Uygulama Dozları",
       certifications: "Sertifikalar",
       packaging: "Ambalaj Seçenekleri",
+      documents: "Belgeler",
+      registrationCertificate: "Tescil Belgesi",
+      registrationAndBrandCertificates: "Tescil Belgesi Ve Marka Tescil Belgeleri",
+      viewCertificate: "Tescil Belgesini Görüntüle",
+      downloadCertificate: "Belgeyi İndir",
+      officialDocument: "Resmi Kimyevi Tescil Belgesi",
+      brandCertificates: "Marka Tescil Belgeleri",
+      akfermagBrandCert: "AKFERMAG KİMYA MARKA TESCİL BELGESİ",
+      agrosolPatentCert: "Agrosol Max Marka Tescil Belgesi",
+      brandDocument: "Marka Tescil Belgesi",
+      patentDocument: "Patent ve Marka Tescil Belgesi",
       ctaTitle: "Ürün Hakkında Daha Fazla Bilgi İster misiniz?",
       ctaSubtitle: "Uzman ekibimiz size yardımcı olmak için hazır!",
       ctaButton: "Bize Ulaşın",
@@ -272,8 +300,8 @@ export const translations = {
         ]
       },
       {
-        id: 'akmag-sh',
-        name: 'AKMAG SH',
+        id: 'agrosol-max-fully',
+        name: 'Agrosol*Max®',
         subtitle: 'High Purity Magnesium Sulfate',
         benefits: [
           'Crystal form, fast solubility',
@@ -371,8 +399,8 @@ export const translations = {
           specs: ['MgO 17%', 'SO₃ 33%', 'EC Fertilizer', 'Spreader application']
         },
         {
-          id: 'akmag-sh',
-          name: 'AKMAG SH',
+          id: 'agrosol-max-fully',
+          name: 'Agrosol*Max®',
           type: 'Magnesium Sulfate',
           description: 'High purity crystal magnesium sulfate',
           specs: ['MgO 16%', 'SO₃ 32%', 'Crystal Form', 'High Purity']
@@ -420,6 +448,20 @@ export const translations = {
       istanbul: "Istanbul Office",
       kutahya: "Kutahya Factory"
     },
+    slider: {
+      slide1Title: "Corn Fields",
+      slide1Desc: "Special solutions for efficient corn production",
+      slide2Title: "Sugar Beet",
+      slide2Desc: "Quality sugar beet production",
+      slide3Title: "Granular Fertilizers",
+      slide3Desc: "High quality granular fertilizer solutions",
+      slide4Title: "Modern Agriculture",
+      slide4Desc: "Technology-equipped agricultural areas",
+      slide5Title: "Fertile Lands",
+      slide5Desc: "Healthy soil, quality products",
+      slide6Title: "Professional Products",
+      slide6Desc: "Strong partnership for agricultural success"
+    },
     contact: {
       title: "Contact",
       subtitle: "Get in touch with us for detailed information about our products and services.",
@@ -450,6 +492,17 @@ export const translations = {
       applicationRates: "Application Rates",
       certifications: "Certifications",
       packaging: "Packaging Options",
+      documents: "Documents",
+      registrationCertificate: "Registration Certificate",
+      registrationAndBrandCertificates: "Registration Certificate And Brand Registration Certificates",
+      viewCertificate: "View Registration Certificate",
+      downloadCertificate: "Download Certificate",
+      officialDocument: "Official Chemical Registration Certificate",
+      brandCertificates: "Brand Registration Certificates",
+      akfermagBrandCert: "AKFERMAG CHEMISTRY BRAND REGISTRATION CERTIFICATE",
+      agrosolPatentCert: "Agrosol Max Brand Registration Certificate",
+      brandDocument: "Brand Registration Certificate",
+      patentDocument: "Patent and Brand Registration Certificate",
       ctaTitle: "Want to Learn More About This Product?",
       ctaSubtitle: "Our expert team is ready to help you!",
       ctaButton: "Contact Us",
@@ -505,8 +558,8 @@ export const translations = {
         ]
       },
       {
-        id: 'akmag-sh',
-        name: 'AKMAG SH',
+        id: 'agrosol-max-fully',
+        name: 'Agrosol*Max®',
         subtitle: 'Високочистий сульфат магнію',
         benefits: [
           'Кристалічна форма, швидка розчинність',
@@ -604,8 +657,8 @@ export const translations = {
           specs: ['MgO 17%', 'SO₃ 33%', 'ЄС добриво', 'Застосування розкидачем']
         },
         {
-          id: 'akmag-sh',
-          name: 'AKMAG SH',
+          id: 'agrosol-max-fully',
+          name: 'Agrosol*Max®',
           type: 'Сульфат магнію',
           description: 'Високочистий кристалічний сульфат магнію',
           specs: ['MgO 16%', 'SO₃ 32%', 'Кристалічна форма', 'Висока чистота']
@@ -653,6 +706,20 @@ export const translations = {
       istanbul: "Офіс у Стамбулі",
       kutahya: "Завод у Кютахья"
     },
+    slider: {
+      slide1Title: "Кукурудзяні поля",
+      slide1Desc: "Спеціальні рішення для ефективного виробництва кукурудзи",
+      slide2Title: "Цукрові буряки",
+      slide2Desc: "Якісне виробництво цукрових буряків",
+      slide3Title: "Гранульовані добрива",
+      slide3Desc: "Високоякісні гранульовані добрива",
+      slide4Title: "Сучасне сільське господарство",
+      slide4Desc: "Технологічно оснащені сільськогосподарські угіддя",
+      slide5Title: "Родючі землі",
+      slide5Desc: "Здоровий ґрунт, якісна продукція",
+      slide6Title: "Професійна продукція",
+      slide6Desc: "Надійне партнерство для сільськогосподарського успіху"
+    },
     contact: {
       title: "Контакти",
       subtitle: "Зв’яжіться з нами для отримання детальної інформації про нашу продукцію та послуги.",
@@ -683,6 +750,17 @@ export const translations = {
       applicationRates: "Норми внесення",
       certifications: "Сертифікати",
       packaging: "Варіанти упаковки",
+      documents: "Документи",
+      registrationCertificate: "Реєстраційний сертифікат",
+      registrationAndBrandCertificates: "Реєстраційний сертифікат та сертифікати реєстрації бренду",
+      viewCertificate: "Переглянути реєстраційний сертифікат",
+      downloadCertificate: "Завантажити сертифікат",
+      officialDocument: "Офіційний сертифікат хімічної реєстрації",
+      brandCertificates: "Сертифікати реєстрації бренду",
+      akfermagBrandCert: "AKFERMAG ХІМІЯ СЕРТИФІКАТ РЕЄСТРАЦІЇ БРЕНДУ",
+      agrosolPatentCert: "Agrosol Max Сертифікат реєстрації бренду",
+      brandDocument: "Сертифікат реєстрації бренду",
+      patentDocument: "Патент і сертифікат реєстрації бренду",
       ctaTitle: "Хочете дізнатися більше про цей продукт?",
       ctaSubtitle: "Наша команда експертів готова вам допомогти!",
       ctaButton: "Зв'яжіться з нами",

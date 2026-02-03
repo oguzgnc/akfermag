@@ -1,5 +1,5 @@
 import product1 from '../assets/AGROSOL MAX GRANULOUS 17 33 TÜRKÇE ÖN YÜZ.png';
-import product2 from '../assets/AKMAG SH_ÖN YÜZ.png';
+import product2 from '../assets/AGROSOL MAX FULLY WATER.png';
 import product3 from '../assets/AGROSOL MAX MIX ÖN YÜZ.png';
 import product4 from '../assets/AGROSOL MAAX TOPMIX.png';
 import product5 from '../assets/AGROSOL MAX 17+33 ÖN YÜZ.png';
@@ -26,10 +26,7 @@ const productsDataByLanguage = {
         'FIRFIR ve MİBZER ile atılır',
         'Kompleks mikro element ihtiyacı için tam formül'
       ],
-      detailedDescription: `Agrosol*Max® TopMix, en kapsamlı mikro element formülasyonumuzdur. 
-    MgO %16, SO₃ %32, Zn %0.2, B %0.1, Mn %0.1 içerir.
-    
-    Bu zengin mikro element kompozisyonu, bitkilerin tüm gelişim dönemlerinde ihtiyaç duyduğu 
+      detailedDescription: `Bu zengin mikro element kompozisyonu, bitkilerin tüm gelişim dönemlerinde ihtiyaç duyduğu 
     besin elementlerini bir arada sunar. EC Gübre Kalite standardında üretilir.`,
       usage: [
         'Özellikle meyve ağaçları ve sebze yetiştiriciliğinde kullanılır',
@@ -43,11 +40,13 @@ const productsDataByLanguage = {
         greenhouse: '100-200 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı', 'Mikro Element Garantili'],
-      packaging: ['25 kg Torba', '500 kg BigBag']
+      packaging: ['25 kg Torba', '500 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
+      certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
     {
-      id: 'akmag-sh',
-      name: 'AKMAG SH',
+      id: 'agrosol-max-fully',
+      name: 'Agrosol*Max®',
       type: 'Magnezyum Sülfat',
       subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
       description: 'Yüksek saflıkta kristal magnezyum sülfat - Endüstriyel ve tarımsal kullanım',
@@ -59,11 +58,7 @@ const productsDataByLanguage = {
         'MgO %16, SO₃ %32 içerik',
         'Premium kalite standartları'
       ],
-      detailedDescription: `AKMAG SH, yüksek saflıkta kristal formda üretilen magnezyum sülfat gübresidir.
-    MgO %16, SO₃ %32 içeriği ile hem tarımsal hem de endüstriyel 
-    kullanım için idealdir.
-    
-    Kristal yapısı sayesinde suda hızla çözünür ve bitkiler tarafından kolayca alınabilir.`,
+      detailedDescription: `Kristal yapısı sayesinde suda hızla çözünür ve bitkiler tarafından kolayca alınabilir.`,
       usage: [
         'Suda çözünerek yapraktan uygulanabilir',
         'Damla sulama sistemlerinde kullanılabilir',
@@ -95,11 +90,7 @@ const productsDataByLanguage = {
         'FIRFIR ve MİBZER ile atılır',
         'Magnezyum ve Çinko eksikliği için ekonomik çözüm'
       ],
-      detailedDescription: `Agrosol*Max® Mix, magnezyum ve kükürtün yanı sıra çinko mikro elementi ile 
-    zenginleştirilmiş özel bir gübre formülasyonudur. MgO %15, SO₃ %30, Zn %0.7 içeriği ile 
-    bitkilerin hem makro hem de mikro besin element ihtiyacını karşılar.
-    
-    EC Gübre Kalite standardında üretilen bu ürün, özellikle çinko eksikliği görülen topraklarda 
+      detailedDescription: `EC Gübre Kalite standardında üretilen bu ürün, özellikle çinko eksikliği görülen topraklarda 
     mükemmel sonuçlar verir.`,
       usage: [
         'Taban gübresi olarak ekimden önce uygulanır',
@@ -113,7 +104,9 @@ const productsDataByLanguage = {
         vegetables: '100-150 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı'],
-      packaging: ['25 kg Torba', '500 kg BigBag']
+      packaging: ['25 kg Torba', '500 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
+      certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
     {
       id: 'agrosol-max-17',
@@ -132,10 +125,7 @@ const productsDataByLanguage = {
         'Magnezyum ve Kükürt ihtiyacı için ekonomik ve güvenilir bitki besin kaynağı',
         'Kompoze Taban Gübreleriyle NPK ile karıştırılıp kullanılabilir'
       ],
-      detailedDescription: `Agrosol*Max®-17, granüllenmiş magnezyum sülfat heptahidrat içeren yüksek kaliteli bir gübredir. 
-    MgO %17, SO₃ %33 içeriği ile bitkilerin magnezyum ve kükürt ihtiyacını karşılar.
-    
-    EC Gübre Kalite standardında üretilen bu ürün, toprakta yavaş çözünür ve hızla yıkanmaz. 
+      detailedDescription: `EC Gübre Kalite standardında üretilen bu ürün, toprakta yavaş çözünür ve hızla yıkanmaz. 
     Bu özelliği sayesinde uzun süreli etki sağlar ve besin kaybını minimize eder.`,
       usage: [
         'Açık tarla ve meyvecilik uygulamaları için idealdir',
@@ -149,7 +139,9 @@ const productsDataByLanguage = {
         fruitTrees: '100-200 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
-      packaging: ['25 kg Torba', '500 kg BigBag', '1000 kg BigBag']
+      packaging: ['25 kg Torba', '500 kg BigBag', '1000 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
+      certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
     {
       id: 'agrosol-max',
@@ -166,10 +158,7 @@ const productsDataByLanguage = {
         'Kristal yapı – Hızlı etki',
         'Yapraktan ve topraktan uygulanabilir'
       ],
-      detailedDescription: `Agrosol*Max®, kristal formda üretilen yüksek saflıkta magnezyum sülfat gübresidir.
-    MgO %16, SO₃ %32 içeriği ile bitkilerin magnezyum ve kükürt ihtiyacını hızla karşılar.
-    
-    Suda %100 çözünür yapısı sayesinde hem yapraktan püskürtme hem de toprak uygulaması için idealdir.
+      detailedDescription: `Suda %100 çözünür yapısı sayesinde hem yapraktan püskürtme hem de toprak uygulaması için idealdir.
     Kristal yapısı hızlı etki sağlar ve bitki tarafından kolayca alınır.`,
       usage: [
         'Yapraktan püskürtme olarak uygulanabilir',
@@ -183,7 +172,9 @@ const productsDataByLanguage = {
         soilApplication: '25-50 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
-      packaging: ['25 kg Torba', '500 kg BigBag', '1000 kg BigBag']
+      packaging: ['25 kg Torba', '500 kg BigBag', '1000 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
+      certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
     {
       id: 'agrosol-max-zinko',
@@ -199,10 +190,7 @@ const productsDataByLanguage = {
         'Hızlı etki ve yüksek çözünürlük',
         'Kristal yapı'
       ],
-      detailedDescription: `Agrosol*Max® Çinko Tuzu, Zn %36 içeren çinko sülfat monohidrat gübresidir.
-    Kristal formda üretilen bu ürün, bitkilerin çinko ihtiyacını karşılamak için özel olarak formüle edilmiştir.
-    
-    Çinko, bitki gelişimi, enzim aktivitesi ve hormon sentezi için kritik öneme sahip bir mikro elementtir.
+      detailedDescription: `Çinko, bitki gelişimi, enzim aktivitesi ve hormon sentezi için kritik öneme sahip bir mikro elementtir.
     Özellikle tahıl, mısır ve meyve ağaçlarında çinko eksikliği yaygın olarak görülür.`,
       usage: [
         'Topraktan uygulamada taban gübresi olarak kullanılır',
@@ -216,7 +204,9 @@ const productsDataByLanguage = {
         fertigation: '2-4 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı', 'GMP+ Sertifikalı'],
-      packaging: ['25 kg Torba', '500 kg BigBag']
+      packaging: ['25 kg Torba', '500 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
+      certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
   ],
   EN: [
@@ -239,10 +229,7 @@ const productsDataByLanguage = {
         'Applied with SPREADER and SEED DRILL',
         'Complete formula for complex microelement needs'
       ],
-      detailedDescription: `Agrosol*Max® TopMix is our most comprehensive microelement formulation. 
-    Contains MgO 16%, SO₃ 32%, Zn 0.2%, B 0.1%, Mn 0.1%.
-    
-    This rich microelement composition offers the nutrient elements that plants need throughout all growth periods together. Produced at EC Fertilizer Quality standard.`,
+      detailedDescription: `This rich microelement composition offers the nutrient elements that plants need throughout all growth periods together. Produced at EC Fertilizer Quality standard.`,
       usage: [
         'Particularly used in fruit trees and vegetable cultivation',
         'Preferred in soils with multiple microelement deficiencies',
@@ -255,11 +242,13 @@ const productsDataByLanguage = {
         greenhouse: '100-200 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard', 'GlobalGAP Approved'],
-      packaging: ['25 kg Bag', '500 kg BigBag']
+      packaging: ['25 kg Bag', '500 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
+      certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
     {
-      id: 'akmag-sh',
-      name: 'AKMAG SH',
+      id: 'agrosol-max-fully',
+      name: 'Agrosol*Max®',
       type: 'Magnesium Sulfate',
       subtitle: 'High Purity Magnesium Sulfate',
       description: 'High purity crystal magnesium sulfate - Industrial and agricultural use',
@@ -271,10 +260,7 @@ const productsDataByLanguage = {
         'MgO 16%, SO₃ 32% content',
         'Premium quality standards'
       ],
-      detailedDescription: `AKMAG SH is a magnesium sulfate fertilizer produced in high purity crystal form.
-    With MgO 16%, SO₃ 32% content, it is ideal for both agricultural and industrial use.
-    
-    Thanks to its crystal structure, it dissolves rapidly in water and can be easily absorbed by plants.`,
+      detailedDescription: `Thanks to its crystal structure, it dissolves rapidly in water and can be easily absorbed by plants.`,
       usage: [
         'Can be applied foliarly by dissolving in water',
         'Can be used in drip irrigation systems',
@@ -306,10 +292,7 @@ const productsDataByLanguage = {
         'Applied with SPREADER and SEED DRILL',
         'Economic solution for magnesium and zinc deficiency'
       ],
-      detailedDescription: `Agrosol*Max® Mix is a special fertilizer formulation enriched with zinc microelement in addition to magnesium and sulfur. With MgO 15%, SO₃ 30%, Zn 0.7% content,
-    it meets both macro and micro nutrient needs of plants.
-    
-    Produced at EC Fertilizer Quality standard, this product gives excellent results especially in soils with zinc deficiency.`,
+      detailedDescription: `Produced at EC Fertilizer Quality standard, this product gives excellent results especially in soils with zinc deficiency.`,
       usage: [
         'Applied as base fertilizer before planting',
         'Can be easily applied with SPREADER and SEED DRILL',
@@ -322,7 +305,9 @@ const productsDataByLanguage = {
         vegetables: '100-150 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard'],
-      packaging: ['25 kg Bag', '500 kg BigBag']
+      packaging: ['25 kg Bag', '500 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
+      certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
     {
       id: 'agrosol-max-17',
@@ -341,10 +326,7 @@ const productsDataByLanguage = {
         'Economic and reliable plant nutrient source for magnesium and sulfur needs',
         'Can be mixed and used with compound base fertilizers and NPK'
       ],
-      detailedDescription: `Agrosol*Max®-17 is a high-quality fertilizer containing granulated magnesium sulfate heptahydrate. 
-    With MgO 17%, SO₃ 33% content, it meets the magnesium and sulfur needs of plants.
-    
-    Produced at EC Fertilizer Quality standard, this product dissolves slowly in soil and does not wash away quickly. 
+      detailedDescription: `Produced at EC Fertilizer Quality standard, this product dissolves slowly in soil and does not wash away quickly. 
     Thanks to this feature, it provides long-term effect and minimizes nutrient loss.`,
       usage: [
         'Ideal for open field and fruit farming applications',
@@ -358,7 +340,9 @@ const productsDataByLanguage = {
         fruitTrees: '100-200 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard', 'Suitable for Organic Farming'],
-      packaging: ['25 kg Bag', '500 kg BigBag', '1000 kg BigBag']
+      packaging: ['25 kg Bag', '500 kg BigBag', '1000 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
+      certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
     {
       id: 'agrosol-max',
@@ -375,10 +359,7 @@ const productsDataByLanguage = {
         'Crystal structure – Fast effect',
         'Can be applied foliarly and to soil'
       ],
-      detailedDescription: `Agrosol*Max® is a high-purity magnesium sulfate fertilizer produced in crystal form.
-    With MgO 16%, SO₃ 32% content, it rapidly meets the magnesium and sulfur needs of plants.
-    
-    Thanks to its 100% water-soluble structure, it is ideal for both foliar spraying and soil application.
+      detailedDescription: `Thanks to its 100% water-soluble structure, it is ideal for both foliar spraying and soil application.
     Its crystal structure provides fast effect and is easily absorbed by plants.`,
       usage: [
         'Can be applied as foliar spray',
@@ -392,7 +373,9 @@ const productsDataByLanguage = {
         soilApplication: '25-50 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard', 'Suitable for Organic Farming'],
-      packaging: ['25 kg Bag', '500 kg BigBag', '1000 kg BigBag']
+      packaging: ['25 kg Bag', '500 kg BigBag', '1000 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
+      certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
     {
       id: 'agrosol-max-zinko',
@@ -408,10 +391,7 @@ const productsDataByLanguage = {
         'Fast acting and high solubility',
         'Crystal structure'
       ],
-      detailedDescription: `Agrosol*Max® Zinc Salt is a zinc sulfate monohydrate fertilizer containing Zn 36%.
-    Produced in crystal form, this product is specially formulated to meet the zinc needs of plants.
-    
-    Zinc is a microelement of critical importance for plant growth, enzyme activity and hormone synthesis.
+      detailedDescription: `Zinc is a microelement of critical importance for plant growth, enzyme activity and hormone synthesis.
     Zinc deficiency is commonly observed especially in cereals, corn and fruit trees.`,
       usage: [
         'Used as base fertilizer in soil application',
@@ -425,7 +405,9 @@ const productsDataByLanguage = {
         fertigation: '2-4 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard', 'GMP+ Certified'],
-      packaging: ['25 kg Bag', '500 kg BigBag']
+      packaging: ['25 kg Bag', '500 kg BigBag'],
+      registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
+      certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
   ],
   UK: [
@@ -448,10 +430,7 @@ const productsDataByLanguage = {
         'Застосовується за допомогою РОЗКИДАЧА та СІВАЛКИ',
         'Повна формула для комплексних потреб мікроелементів'
       ],
-      detailedDescription: `Agrosol*Max® TopMix - це найбільш комплексна формула мікроелементів. 
-    Містить MgO 16%, SO₃ 32%, Zn 0.2%, B 0.1%, Mn 0.1%.
-    
-    Ця багата композиція мікроелементів пропонує поживні елементи, які потрібні рослинам протягом всіх періодів росту. Виробляється за стандартом якості добрив ЄС.`,
+      detailedDescription: `Ця багата композиція мікроелементів пропонує поживні елементи, які потрібні рослинам протягом всіх періодів росту. Виробляється за стандартом якості добрив ЄС.`,
       usage: [
         'Особливо використовується у фруктових деревах та овочівництві',
         'Віддається перевага на грунтах з множинними дефіцитами мікроелементів',
@@ -464,11 +443,13 @@ const productsDataByLanguage = {
         greenhouse: '100-200 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'GlobalGAP затверджено'],
-      packaging: ['25 кг мішок', '500 кг BigBag']
+      packaging: ['25 кг мішок', '500 кг BigBag'],
+      registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
+      certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
     {
-      id: 'akmag-sh',
-      name: 'AKMAG SH',
+      id: 'agrosol-max-fully',
+      name: 'Agrosol*Max® ',
       type: 'Сульфат магнію',
       subtitle: 'Високочистий сульфат магнію',
       description: 'Високочистий кристалічний сульфат магнію - Промислове та сільськогосподарське використання',
@@ -480,10 +461,7 @@ const productsDataByLanguage = {
         'Вміст MgO 16%, SO₃ 32%',
         'Преміум стандарти якості'
       ],
-      detailedDescription: `AKMAG SH - це добриво сульфату магнію, вироблене у високочистій кристалічній формі.
-    З вмістом MgO 16%, SO₃ 32%, воно ідеально підходить як для сільськогосподарського, так і для промислового використання.
-    
-    Завдяки своїй кристалічній структурі він швидко розчиняється у воді та легко засвоюється рослинами.`,
+      detailedDescription: `Завдяки своїй кристалічній структурі він швидко розчиняється у воді та легко засвоюється рослинами.`,
       usage: [
         'Може застосовуватися листково шляхом розчинення у воді',
         'Може використовуватися в системах крапельного зрошення',
@@ -515,10 +493,7 @@ const productsDataByLanguage = {
         'Застосовується за допомогою РОЗКИДАЧА та СІВАЛКИ',
         'Економічне рішення для дефіциту магнію та цинку'
       ],
-      detailedDescription: `Agrosol*Max® Mix - це спеціальна формула добрива, збагачена мікроелементом цинку на додаток до магнію та сірки. З вмістом MgO 15%, SO₃ 30%, Zn 0.7%,
-    воно задовольняє як макро-, так і мікроелементні потреби рослин.
-    
-    Виготовлене за стандартом якості добрив ЄС, цей продукт дає чудові результати, особливо в грунтах з дефіцитом цинку.`,
+      detailedDescription: `Виготовлене за стандартом якості добрив ЄС, цей продукт дає чудові результати, особливо в грунтах з дефіцитом цинку.`,
       usage: [
         'Застосовується як основне добриво перед посадкою',
         'Може бути легко нанесене за допомогою РОЗКИДАЧА та СІВАЛКИ',
@@ -531,7 +506,9 @@ const productsDataByLanguage = {
         vegetables: '100-150 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС'],
-      packaging: ['25 кг мішок', '500 кг BigBag']
+      packaging: ['25 кг мішок', '500 кг BigBag'],
+      registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
+      certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
     {
       id: 'agrosol-max-17',
@@ -550,10 +527,7 @@ const productsDataByLanguage = {
         'Економічне та надійне джерело поживних речовин для рослин для потреб магнію та сірки',
         'Може бути змішане та використане з комплексними основними добривами та NPK'
       ],
-      detailedDescription: `Agrosol*Max®-17 - це високоякісне добриво, що містить гранульований сульфат магнію гептагідрат. 
-    З вмістом MgO 17%, SO₃ 33%, воно задовольняє потреби рослин у магнії та сірці.
-    
-    Виготовлене за стандартом якості добрив ЄС, цей продукт повільно розчиняється в грунті та не вимивається швидко. 
+      detailedDescription: `Виготовлене за стандартом якості добрив ЄС, цей продукт повільно розчиняється в грунті та не вимивається швидко. 
     Завдяки цій особливості він забезпечує довгостроковий ефект та мінімізує втрату поживних речовин.`,
       usage: [
         'Ідеально підходить для застосування на відкритому полі та у фруктовому господарстві',
@@ -567,7 +541,9 @@ const productsDataByLanguage = {
         fruitTrees: '100-200 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Підходить для органічного землеробства'],
-      packaging: ['25 кг мішок', '500 кг BigBag', '1000 кг BigBag']
+      packaging: ['25 кг мішок', '500 кг BigBag', '1000 кг BigBag'],
+      registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
+      certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
     {
       id: 'agrosol-max',
@@ -584,10 +560,7 @@ const productsDataByLanguage = {
         'Кристалічна структура – Швидка дія',
         'Може застосовуватися листково та в грунт'
       ],
-      detailedDescription: `Agrosol*Max® - це високочисте добриво сульфату магнію, вироблене у кристалічній формі.
-    З вмістом MgO 16%, SO₃ 32%, воно швидко задовольняє потреби рослин у магнії та сірці.
-    
-    Завдяки своїй 100% водорозчинній структурі він ідеально підходить як для листкового обприскування, так і для внесення в грунт.
+      detailedDescription: `Завдяки своїй 100% водорозчинній структурі він ідеально підходить як для листкового обприскування, так і для внесення в грунт.
     Його кристалічна структура забезпечує швидку дію та легко засвоюється рослинами.`,
       usage: [
         'Може застосовуватися як листкове обприскування',
@@ -601,7 +574,9 @@ const productsDataByLanguage = {
         soilApplication: '25-50 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Підходить для органічного землеробства'],
-      packaging: ['25 кг мішок', '500 кг BigBag', '1000 кг BigBag']
+      packaging: ['25 кг мішок', '500 кг BigBag', '1000 кг BigBag'],
+      registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
+      certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
     {
       id: 'agrosol-max-zinko',
@@ -617,10 +592,7 @@ const productsDataByLanguage = {
         'Швидка дія та висока розчинність',
         'Кристалічна структура'
       ],
-      detailedDescription: `Agrosol*Max® Цинкова сіль - це добриво сульфату цинку моногідрату, що містить Zn 36%.
-    Виготовлене у кристалічній формі, цей продукт спеціально розроблений для задоволення потреб рослин у цинку.
-    
-    Цинк є мікроелементом критичної важливості для росту рослин, активності ферментів та синтезу гормонів.
+      detailedDescription: `Цинк є мікроелементом критичної важливості для росту рослин, активності ферментів та синтезу гормонів.
     Дефіцит цинку зазвичай спостерігається особливо в зернових, кукурудзі та фруктових деревах.`,
       usage: [
         'Використовується як основне добриво при внесенні в грунт',
@@ -634,7 +606,9 @@ const productsDataByLanguage = {
         fertigation: '2-4 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Сертифіковано GMP+'],
-      packaging: ['25 кг мішок', '500 кг BigBag']
+      packaging: ['25 кг мішок', '500 кг BigBag'],
+      registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
+      certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
   ]
 };

@@ -1,6 +1,7 @@
 ﻿import React from 'react';
 import { Mail, Phone, MapPin, Facebook, Instagram } from 'lucide-react';
 import { X } from 'lucide-react';
+import logoArkaplan from '../assets/logoarkaplan.png';
 
 const Footer = ({ translations }) => {
   return (
@@ -11,8 +12,8 @@ const Footer = ({ translations }) => {
           {/* Company Info */}
           <div className="sm:col-span-2 md:col-span-1">
             <div className="flex items-center space-x-2 md:space-x-3 mb-4 md:mb-6">
-              <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-akfermag-blue to-akfermag-green rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg md:text-xl">AF</span>
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-lg flex items-center justify-center">
+                <img src={logoArkaplan} alt="Akfermag Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h3 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-akfermag-light-blue to-akfermag-green bg-clip-text text-transparent">
@@ -80,7 +81,7 @@ const Footer = ({ translations }) => {
               <li>
                 <a href="#products" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
-                  AKMAG SH
+                  Agrosol*Max® 
                 </a>
               </li>
               <li>
@@ -140,7 +141,8 @@ const Footer = ({ translations }) => {
             </h4>
             <p className="text-gray-400 text-sm">
               Kütahya Organize Sanayi Bölgesi<br />
-              Merkez, Kütahya, Türkiye
+              Merkez, Kütahya, Türkiye<br />
+              Posta Kodu: 43100
             </p>
           </div>
 
