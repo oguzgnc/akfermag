@@ -1,68 +1,71 @@
 # AKFERMAG Kimya Web Sitesi
 
-Modern, responsive ve çok dilli (Türkçe, İngilizce, Ukraynaca) AKFERMAG Kimya şirketi web sitesi.
+Modern, responsive ve 3 dilli (TR/EN/UK) kurumsal web sitesi.
 
 ## 🚀 Teknolojiler
 
-- **React 19.2.0** - UI Framework
-- **Vite 7.2.4** - Build Tool & Dev Server
-- **React Router DOM 7.13.0** - Sayfa yönlendirme
-- **Tailwind CSS 3.3.6** - Stil framework
-- **Lucide React** - İkon kütüphanesi
+- React 19.2.0 + Vite 7.2.4
+- React Router DOM 7.13.0
+- Tailwind CSS 3.3.6
+- Lucide React
 
-## 📋 Gereksinimler
-
-Projeyi çalıştırmak için sisteminizde şunlar yüklü olmalıdır:
-
-- **Node.js** (v18 veya üzeri) - [İndir](https://nodejs.org/)
-- **npm** (Node.js ile birlikte gelir)
-
-## 🔧 Kurulum
-
-### 1. Proje dosyalarını indirin veya kopyalayın
+## ⚡ Hızlı Başlangıç
 
 ```bash
-# Proje klasörüne gidin
-cd akfermag
-```
-
-### 2. Bağımlılıkları yükleyin
-
-```bash
+# 1. Bağımlılıkları yükle
 npm install
-```
 
-Bu komut, `package.json` dosyasındaki tüm gerekli kütüphaneleri otomatik olarak yükleyecektir.
-
-## 🎯 Kullanım
-
-### Geliştirme Modunda Çalıştırma
-
-Projeyi yerel sunucuda geliştirme modunda çalıştırmak için:
-
-```bash
+# 2. Geliştirme sunucusunu başlat
 npm run dev
-```
 
-Tarayıcınızda şu adresi açın: `http://localhost:5173`
-
-### Production Build Alma
-
-Canlı yayın için optimize edilmiş build almak için:
-
-```bash
+# 3. Build al (canlıya almak için)
 npm run build
 ```
 
-Bu komut `dist` klasöründe optimize edilmiş dosyaları oluşturur.
+**Detaylı kurulum için:** [KURULUM-REHBERI.md](KURULUM-REHBERI.md) dosyasına bakın.
 
-### Build'i Test Etme
+## 🎨 Özellikler
 
-Build aldıktan sonra yerel olarak test etmek için:
+- ✅ 3 Dil Desteği (TR/EN/UK)
+- ✅ Responsive Tasarım
+- ✅ 6 Ürün Sayfası
+- ✅ Modern UI/UX
+- ✅ Netlify Ready
+
+## 📁 Klasör Yapısı
+
+```
+akfermag/
+├── src/
+│   ├── components/         # React bileşenleri
+│   ├── pages/              # Ana ve ürün sayfaları
+│   ├── data/               # Ürün verileri
+│   ├── assets/             # Görseller
+│   └── translations.js     # Çeviri dosyası (TR/EN/UK)
+├── public/                 # Statik dosyalar
+└── dist/                   # Build çıktısı
+```
+
+## 📝 İçerik Güncelleme
+
+- **Çeviriler:** `src/translations.js`
+- **Ürünler:** `src/data/productsData.js`
+- **Renkler:** `tailwind.config.js`
+
+## 🚀 Canlıya Alma
 
 ```bash
-npm run preview
+# Build al
+npm run build
+
+# dist/ klasörünü Netlify'a yükle
 ```
+
+**Netlify yapılandırması hazır** (`netlify.toml` mevcut)
+
+---
+
+**Not:** Bu proje frontend-only. Backend/database gerekmez.
 
 ## 📁 Proje Yapısı
 
