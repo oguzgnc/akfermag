@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, Droplets, Sparkles, CheckCircle, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from './ui/Button';
@@ -27,6 +27,15 @@ const HeroSection = ({ translations }) => {
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev - 1 + products.length) % products.length);
   };
+
+  // Auto-play functionality
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 5000); // 5 saniyede bir değişir
+
+    return () => clearInterval(interval);
+  }, [currentIndex]);
 
   return (
     <section id="home" className="relative bg-gradient-to-br from-blue-50 via-white to-green-50 py-8 md:py-16 lg:py-24 overflow-hidden">
