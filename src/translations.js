@@ -187,7 +187,7 @@ export const translations = {
       subscribe: "Abone Ol",
       newsletterSuccess: "Başarıyla abone oldunuz",
       rights: "Tüm hakları saklıdır.",
-      istanbul: "İstanbul Ofis",
+      istanbul: "İstanbul İrtibat",
       kutahya: "Kütahya Fabrika",
       companyDescription: "Gübre ve kimya sektöründe 40 yılı aşkın deneyimimizle güvenilir çözüm ortağınız."
     },

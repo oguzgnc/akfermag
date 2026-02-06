@@ -51,7 +51,7 @@ const ContactSection = ({ translations }) => {
                     <Mail className="w-6 h-6 md:w-8 md:h-8 text-white" />
                   </div>
                   <h3 className="font-semibold text-white mb-2 md:mb-3 text-base md:text-lg">{translations.contact.email}</h3>
-                  <a href="mailto:sales@akfermag.com" className="text-white/80 hover:text-white transition break-all text-sm md:text-base">
+                  <a href="https://mail.google.com/mail/?view=cm&to=sales@akfermag.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition break-all text-sm md:text-base">
                     sales@akfermag.com
                   </a>
                 </div>

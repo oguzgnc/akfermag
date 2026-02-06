@@ -4,8 +4,13 @@ import misir1 from '../assets/misir.jpeg';
 import misir2 from '../assets/misir2.jpeg';
 import pancar1 from '../assets/pancar.jpeg';
 import pancar2 from '../assets/pancar2.jpeg';
-import granul1 from '../assets/granul.jpeg';
-import granul2 from '../assets/granul.png';
+import image1 from '../assets/1.jpeg';
+import image2 from '../assets/2.jpeg';
+import image3 from '../assets/3.jpeg';
+import image4 from '../assets/4.jpeg';
+import image5 from '../assets/5.jpeg';
+import image6 from '../assets/6.jpeg';
+import image7 from '../assets/7.jpeg';
 
 const ImageSlider = ({ translations }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,37 +19,46 @@ const ImageSlider = ({ translations }) => {
   const slides = [
     {
       id: 1,
-      image: misir1,
+      image1: misir1,
+      image2: misir2,
+      image2Position: 'top',
       title: translations?.slider?.slide1Title || 'Mısır Tarlaları',
       description: translations?.slider?.slide1Desc || 'Verimli mısır üretimi için özel çözümler'
     },
     {
       id: 2,
-      image: pancar1,
-      title: translations?.slider?.slide2Title || 'Şeker Pancarı',
-      description: translations?.slider?.slide2Desc || 'Kaliteli şeker pancarı üretimi'
+      image1: image5,
+      image2: image3,
+      title: translations?.slider?.slide2Title || 'Modern Tarım',
+      description: translations?.slider?.slide2Desc || 'Teknoloji ile donatılmış tarım alanları'
     },
     {
       id: 3,
-      image: granul1,
-      title: translations?.slider?.slide3Title || 'Granül Gübreler',
-      description: translations?.slider?.slide3Desc || 'Yüksek kaliteli granül gübre çözümleri'
+      image1: image7,
+      image2: image2,
+      image2Style: 'contain',
+      title: translations?.slider?.slide3Title || 'İnovatif Çözümler',
+      description: translations?.slider?.slide3Desc || 'Tarımda yeni nesil teknolojiler'
     },
     {
       id: 4,
-      image: misir2,
-      title: translations?.slider?.slide4Title || 'Modern Tarım',
-      description: translations?.slider?.slide4Desc || 'Teknoloji ile donatılmış tarım alanları'
+      image1: pancar1,
+      image2: pancar2,
+      title: translations?.slider?.slide4Title || 'Şeker Pancarı',
+      description: translations?.slider?.slide4Desc || 'Kaliteli şeker pancarı üretimi'
     },
     {
       id: 5,
-      image: pancar2,
+      image1: image1,
+      image2: image4,
       title: translations?.slider?.slide5Title || 'Verimli Topraklar',
       description: translations?.slider?.slide5Desc || 'Sağlıklı toprak, kaliteli ürün'
     },
     {
       id: 6,
-      image: granul2,
+      image1: pancar1,
+      image2: image6,
+      image2Style: 'contain',
       title: translations?.slider?.slide6Title || 'Profesyonel Ürünler',
       description: translations?.slider?.slide6Desc || 'Tarımsal başarı için güçlü ortaklık'
     }
@@ -89,12 +103,30 @@ const ImageSlider = ({ translations }) => {
                 : 'opacity-0 scale-105'
             }`}
           >
-            {/* Image */}
-            <img
-              src={slide.image}
-              alt={slide.title}
-              className="w-full h-full object-cover"
-            />
+            {/* İki Resim - Desktop yan yana, Mobil alt alta */}
+            <div className="flex flex-col md:flex-row w-full h-full">
+              <div className="w-full md:w-1/2 h-1/2 md:h-full relative">
+                <img
+                  src={slide.image1}
+                  alt={`${slide.title} - 1`}
+                  className="w-full h-full object-cover"
+                />
+                {/* Gölge - sağda (desktop) ve altta (mobil) */}
+                <div className="absolute inset-0 shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
+                <div className="absolute inset-0 shadow-[inset_0_-20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
+              </div>
+              <div className="w-full md:w-1/2 h-1/2 md:h-full bg-gray-800 flex items-center justify-center relative">
+                <img
+                  src={slide.image2}
+                  alt={`${slide.title} - 2`}
+                  className={`w-full h-full ${slide.image2Style === 'contain' ? 'object-contain p-4' : 'object-cover'}`}
+                  style={slide.image2Position ? { objectPosition: slide.image2Position } : {}}
+                />
+                {/* Gölge - solda (desktop) ve üstte (mobil) */}
+                <div className="absolute inset-0 shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
+                <div className="absolute inset-0 shadow-[inset_0_20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
+              </div>
+            </div>
             
             {/* Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>

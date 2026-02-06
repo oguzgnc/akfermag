@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Instagram } from 'lucide-react';
 import { X } from 'lucide-react';
 import logoArkaplan from '../assets/logoarkaplan.png';
@@ -73,40 +74,40 @@ const Footer = ({ translations }) => {
             <h4 className="text-lg font-bold mb-6">{translations.footer.products}</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#products" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
+                <Link to="/product/agrosol-max-17" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
                   Agrosol*Max®-17
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#products" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
+                <Link to="/product/agrosol-max" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
                   Agrosol*Max® 
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#products" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
+                <Link to="/product/agrosol-max-mix" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
                   Agrosol*Max® Mix
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#products" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
+                <Link to="/product/agrosol-max-topmix" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
                   Agrosol*Max® TopMix
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#products" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
+                <Link to="/product/agrosol-max-fully" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
-                  Agrosol*Max®
-                </a>
+                  Agrosol*Max® 
+                </Link>
               </li>
               <li>
-                <a href="#products" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
+                <Link to="/product/agrosol-max-zinko" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
                   Agrosol*Max® Çinko Tuzu
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -126,7 +127,7 @@ const Footer = ({ translations }) => {
                 <Phone className="w-4 h-4" />
                 +90 216 517 05 37
               </a>
-              <a href="mailto:sales@akfermag.com" className="text-gray-400 hover:text-akfermag-green transition-colors text-sm flex items-center gap-2">
+              <a href="https://mail.google.com/mail/?view=cm&to=sales@akfermag.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-akfermag-green transition-colors text-sm flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 sales@akfermag.com
               </a>

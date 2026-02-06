@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle, Package, Award, Leaf, FileCheck, Eye, Download } from 'lucide-react';
+import { ArrowLeft, CheckCircle, Package, Award, Leaf, FileCheck, Download } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 import ProductName from '../components/ProductName';
 import { getProductsData } from '../data/productsDataMultiLang';
@@ -191,7 +191,7 @@ const ProductDetail = ({ translations, language }) => {
               
               <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl md:rounded-2xl p-6 md:p-8 shadow-lg border border-blue-100">
                 {/* Product Specific Certificate - Only show if exists */}
-                {product.registrationCertificate ? (
+                {product.registrationCertificate && (
                   <>
                     <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">{translations.productDetail.registrationAndBrandCertificates || 'Tescil Belgesi Ve Marka Tescil Belgeleri'}</h3>
                     <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-white p-4 md:p-5 rounded-lg border-2 border-blue-200 mb-6">
@@ -216,12 +216,10 @@ const ProductDetail = ({ translations, language }) => {
                       </a>
                     </div>
                   </>
-                ) : (
-                  <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">{translations.productDetail.brandCertificates || 'Marka Tescil Belgeleri'}</h3>
                 )}
                 
                 {/* AKFERMAG Brand Certificate */}
-                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-white p-4 md:p-5 rounded-lg border-2 border-blue-200 mb-4">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-white p-4 md:p-5 rounded-lg border-2 border-blue-200">
                   <div className="flex items-center gap-3">
                     <div className="bg-blue-100 p-3 rounded-lg">
                       <Award className="w-6 h-6 text-akfermag-blue" />
@@ -233,29 +231,6 @@ const ProductDetail = ({ translations, language }) => {
                   </div>
                   <a 
                     href="/AKFERMAG KİMYA MARKA TESCİL BELGESİ.pdf" 
-                    download
-                    className="w-full sm:w-auto"
-                  >
-                    <Button className="w-full sm:w-auto gap-2 bg-akfermag-blue hover:bg-blue-700">
-                      <Download size={18} />
-                      {translations.productDetail.downloadCertificate || 'Belgeyi İndir'}
-                    </Button>
-                  </a>
-                </div>
-
-                {/* Agrosol Max Patent Certificate */}
-                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-white p-4 md:p-5 rounded-lg border-2 border-blue-200">
-                  <div className="flex items-center gap-3">
-                    <div className="bg-blue-100 p-3 rounded-lg">
-                      <Award className="w-6 h-6 text-akfermag-blue" />
-                    </div>
-                    <div>
-                      <p className="font-semibold text-gray-900 text-sm md:text-base">{translations.productDetail.agrosolPatentCert || 'Agrosol Max Marka Tescil Belgesi'}</p>
-                      <p className="text-xs md:text-sm text-gray-500">{translations.productDetail.patentDocument || 'Patent ve Marka Tescil Belgesi'}</p>
-                    </div>
-                  </div>
-                  <a 
-                    href="/Agrosol Max Marka Tescil Belgesi PATENT.pdf" 
                     download
                     className="w-full sm:w-auto"
                   >
