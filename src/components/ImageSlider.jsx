@@ -36,7 +36,6 @@ const ImageSlider = ({ translations }) => {
       id: 3,
       image1: image7,
       image2: image2,
-      image2Style: 'contain',
       title: translations?.slider?.slide3Title || 'İnovatif Çözümler',
       description: translations?.slider?.slide3Desc || 'Tarımda yeni nesil teknolojiler'
     },
@@ -58,7 +57,6 @@ const ImageSlider = ({ translations }) => {
       id: 6,
       image1: pancar1,
       image2: image6,
-      image2Style: 'contain',
       title: translations?.slider?.slide6Title || 'Profesyonel Ürünler',
       description: translations?.slider?.slide6Desc || 'Tarımsal başarı için güçlü ortaklık'
     }
@@ -119,7 +117,7 @@ const ImageSlider = ({ translations }) => {
                 <img
                   src={slide.image2}
                   alt={`${slide.title} - 2`}
-                  className={`w-full h-full ${slide.image2Style === 'contain' ? 'object-contain p-4' : 'object-cover'}`}
+                  className="w-full h-full object-cover"
                   style={slide.image2Position ? { objectPosition: slide.image2Position } : {}}
                 />
                 {/* Gölge - solda (desktop) ve üstte (mobil) */}
