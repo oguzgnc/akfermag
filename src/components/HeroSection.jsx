@@ -13,9 +13,18 @@ import product6 from '../assets/agrosol-max-cinko.png';
 const HeroSection = ({ translations }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const products = translations.heroProducts.map((product, index) => ({
+  const imageMap = {
+    'agrosol-max-topmix': product4,
+    'agrosol-max-fully': product2,
+    'agrosol-max-mix': product3,
+    'agrosol-max-17': product1,
+    'agrosol-max': product5,
+    'agrosol-max-zinko': product6
+  };
+
+  const products = translations.heroProducts.map((product) => ({
     ...product,
-    image: [product4, product2, product3, product1, product5, product6][index]
+    image: imageMap[product.id] || product3
   }));
 
   const currentProduct = products[currentIndex];

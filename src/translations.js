@@ -17,6 +17,17 @@ export const translations = {
     },
     heroProducts: [
       {
+        id: 'agrosol-max-mix',
+        name: 'Agrosol*Max® Mix',
+        subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
+        benefits: [
+          'MgO %15 (Magnezyum Oksit)',
+          'SO₃ %30 (Kükürt Trioksit)',
+          'Zn %0.7 (Çinko)',
+          'EC Gübre Kalite'
+        ]
+      },
+      {
         id: 'agrosol-max-topmix',
         name: 'Agrosol*Max® TopMix',
         subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
@@ -38,18 +49,6 @@ export const translations = {
           'Premium kalite standartları'
         ]
       },
-
-      {
-        id: 'agrosol-max-mix',
-        name: 'Agrosol*Max® Mix',
-        subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
-        benefits: [
-          'MgO %15 (Magnezyum Oksit)',
-          'SO₃ %30 (Kükürt Trioksit)',
-          'Zn %0.7 (Çinko)',
-          'EC Gübre Kalite'
-        ]
-      },
       {
         id: 'agrosol-max-17',
         name: 'Agrosol*Max®-17',
@@ -61,8 +60,6 @@ export const translations = {
           'FIRFIR ile kolay uygulama'
         ]
       },
-      
-      
       {
         id: 'agrosol-max',
         name: 'Agrosol*Max®',
@@ -279,6 +276,17 @@ export const translations = {
     },
     heroProducts: [
       {
+        id: 'agrosol-max-mix',
+        name: 'Agrosol*Max® Mix',
+        subtitle: 'Micro Element Enriched Magnesium Sulfate',
+        benefits: [
+          'MgO 15% (Magnesium Oxide)',
+          'SO₃ 30% (Sulfur Trioxide)',
+          'Zn 0.7% (Zinc)',
+          'EC Fertilizer Grade'
+        ]
+      },
+      {
         id: 'agrosol-max-topmix',
         name: 'Agrosol*Max® TopMix',
         subtitle: 'Micro Element Enriched Magnesium Sulfate',
@@ -287,17 +295,6 @@ export const translations = {
           'SO₃ 32% (Sulfur Trioxide)',
           'Contains Zinc + Boron + Manganese',
           'EC Fertilizer Grade'
-        ]
-      },
-      {
-        id: 'agrosol-max-17',
-        name: 'Agrosol*Max®-17',
-        subtitle: 'Granulated Magnesium Sulfate Heptahydrate',
-        benefits: [
-          'MgO 17% (Magnesium)',
-          'SO₃ 33% (Sulfur)',
-          'EC Fertilizer Grade',
-          'Easy application with spreader'
         ]
       },
       {
@@ -312,14 +309,14 @@ export const translations = {
         ]
       },
       {
-        id: 'agrosol-max-mix',
-        name: 'Agrosol*Max® Mix',
-        subtitle: 'Micro Element Enriched Magnesium Sulfate',
+        id: 'agrosol-max-17',
+        name: 'Agrosol*Max®-17',
+        subtitle: 'Granulated Magnesium Sulfate Heptahydrate',
         benefits: [
-          'MgO 15% (Magnesium Oxide)',
-          'SO₃ 30% (Sulfur Trioxide)',
-          'Zn 0.7% (Zinc)',
-          'EC Fertilizer Grade'
+          'MgO 17% (Magnesium)',
+          'SO₃ 33% (Sulfur)',
+          'EC Fertilizer Grade',
+          'Easy application with spreader'
         ]
       },
       {
@@ -538,6 +535,17 @@ export const translations = {
     },
     heroProducts: [
       {
+        id: 'agrosol-max-mix',
+        name: 'Agrosol*Max® Mix',
+        subtitle: 'Сульфат магнію збагачений мікроелементами',
+        benefits: [
+          'MgO 15% (Оксид магнію)',
+          'SO₃ 30% (Триоксид сірки)',
+          'Zn 0.7% (Цинк)',
+          'ЄС добриво'
+        ]
+      },
+      {
         id: 'agrosol-max-topmix',
         name: 'Agrosol*Max® TopMix',
         subtitle: 'Сульфат магнію збагачений мікроелементами',
@@ -546,17 +554,6 @@ export const translations = {
           'SO₃ 32% (Триоксид сірки)',
           'Містить цинк + бор + марганець',
           'ЄС добриво'
-        ]
-      },
-      {
-        id: 'agrosol-max-17',
-        name: 'Agrosol*Max®-17',
-        subtitle: 'Гранульований сульфат магнію гептагідрат',
-        benefits: [
-          'MgO 17% (Магній)',
-          'SO₃ 33% (Сірка)',
-          'ЄС добриво',
-          'Легке застосування з розкидачем'
         ]
       },
       {
@@ -571,14 +568,14 @@ export const translations = {
         ]
       },
       {
-        id: 'agrosol-max-mix',
-        name: 'Agrosol*Max® Mix',
-        subtitle: 'Сульфат магнію збагачений мікроелементами',
+        id: 'agrosol-max-17',
+        name: 'Agrosol*Max®-17',
+        subtitle: 'Гранульований сульфат магнію гептагідрат',
         benefits: [
-          'MgO 15% (Оксид магнію)',
-          'SO₃ 30% (Триоксид сірки)',
-          'Zn 0.7% (Цинк)',
-          'ЄС добриво'
+          'MgO 17% (Магній)',
+          'SO₃ 33% (Сірка)',
+          'ЄС добриво',
+          'Легке застосування з розкидачем'
         ]
       },
       {

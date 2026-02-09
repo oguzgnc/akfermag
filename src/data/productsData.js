@@ -13,15 +13,17 @@ export const productsData = [
     subtitle: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
     description: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
     image: product1,
-    specs: ['MgO %17', 'SO₃ %33', 'EC Gübre', 'FIRFIR ile atılır'],
+    specs: ['Suda Çözünebilir MgO %17', 'Suda Çözünebilir SO₃ %33', 'EC Gübre', 'FIRFIR ile atılır'],
     benefits: [
-      'MgO %17 (Magnezyum Oksit)',
-      'SO₃ %33 (Kükürt Trioksit)',
+      'Suda Çözünebilir MgO %17 (Magnezyum Oksit)',
+      'Suda Çözünebilir SO₃ %33 (Kükürt Trioksit)',
       'EC Gübre Kalite',
       'Toprakta yavaş çözünür – Hızla yıkanmaz',
       'Açık tarla ve meyvecilikte fırfır ile kullanım kolaylığı',
       'Magnezyum ve Kükürt ihtiyacı için ekonomik ve güvenilir bitki besin kaynağı',
-      'Kompoze Taban Gübreleriyle NPK ile karıştırılıp kullanılabilir'
+      'Kompoze Taban Gübreleriyle NPK ile karıştırılıp kullanılabilir',
+      'Yüksek Saflık',
+      'Teknik Kalite'
     ],
     detailedDescription: `Agrosol*Max®-17, granüllenmiş magnezyum sülfat heptahidrat içeren yüksek kaliteli bir gübredir. 
     MgO %17, SO₃ %33 içeriği ile bitkilerin magnezyum ve kükürt ihtiyacını karşılar.
@@ -49,12 +51,14 @@ export const productsData = [
     subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
     description: 'Yüksek saflıkta kristal magnezyum sülfat - Endüstriyel ve tarımsal kullanım',
     image: product2,
-    specs: ['MgO %16', 'SO₃ %32', 'Kristal Form', 'Yüksek Saflık'],
+    specs: ['Suda Çözünebilir MgO %16', 'Suda Çözünebilir SO₃ %32', 'Kristal Form', 'Yüksek Saflık'],
     benefits: [
       'Kristal form, hızlı çözünürlük',
       'Endüstriyel ve tarımsal kullanım',
-      'MgO %16, SO₃ %32 içerik',
-      'Premium kalite standartları'
+      'Suda Çözünebilir MgO %16, Suda Çözünebilir SO₃ %32 içerik',
+      'Premium kalite standartları',
+      'Yüksek Saflık',
+      'Teknik Kalite'
     ],
     detailedDescription: `AKMAG SH, yüksek saflıkta kristal formda üretilen magnezyum sülfat gübresidir.
     MgO %16, SO₃ %32 içeriği ile hem tarımsal hem de endüstriyel 
@@ -80,17 +84,19 @@ export const productsData = [
     name: 'Agrosol*Max® Mix',
     type: 'Mikro Element Zenginleştirilmiş',
     subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
-    description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
+    description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat', 
     image: product3,
-    specs: ['MgO %15', 'SO₃ %30', 'Zn %0.7', 'EC Gübre'],
+    specs: ['Suda Çözünebilir MgO %15', 'Suda Çözünebilir SO₃ %30', 'Suda Çözünebilir Zn %0.7', 'EC Gübre'],
     benefits: [
-      'MgO %15 (Magnezyum Oksit)',
-      'SO₃ %30 (Kükürt Trioksit)',
-      'Zn %0.7 (Çinko)',
+      'Suda Çözünebilir MgO %15 (Magnezyum Oksit)',
+      'Suda Çözünebilir SO₃ %30 (Kükürt Trioksit)',
+      'Suda Çözünebilir Zn %0.7 (Çinko)',
       'EC Gübre Kalite',
       'Toprakta yavaş çözünür – Hızla yıkanmaz',
       'FIRFIR ve MİBZER ile atılır',
-      'Magnezyum ve Çinko eksikliği için ekonomik çözüm'
+      'Magnezyum ve Çinko eksikliği için ekonomik çözüm',
+      'Yüksek Saflık',
+      'Teknik Kalite'
     ],
     detailedDescription: `Agrosol*Max® Mix, magnezyum ve kükürtün yanı sıra çinko mikro elementi ile 
     zenginleştirilmiş özel bir gübre formülasyonudur. MgO %15, SO₃ %30, Zn %0.7 içeriği ile 
@@ -119,17 +125,19 @@ export const productsData = [
     subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
     description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
     image: product4,
-    specs: ['MgO %16', 'SO₃ %32', 'Zn %0.2', 'B+Mn %0.1'],
+    specs: ['Suda Çözünebilir MgO %16', 'Suda Çözünebilir SO₃ %32', 'Suda Çözünebilir Zn %0.2', 'Suda Çözünebilir B+Mn %0.1'],
     benefits: [
-      'MgO %16 (Magnezyum Oksit)',
-      'SO₃ %32 (Kükürt Trioksit)',
-      'Zn %0.2 (Çinko)',
-      'B %0.1 (Bor)',
-      'Mn %0.1 (Mangan)',
+      'Suda Çözünebilir MgO %16 (Magnezyum Oksit)',
+      'Suda Çözünebilir SO₃ %32 (Kükürt Trioksit)',
+      'Suda Çözünebilir Zn %0.2 (Çinko)',
+      'Suda Çözünebilir B %0.1 (Bor)',
+      'Suda Çözünebilir Mn %0.1 (Mangan)',
       'EC Gübre Kalite',
       'Toprakta yavaş çözünür – Hızla yıkanmaz',
       'FIRFIR ve MİBZER ile atılır',
-      'Kompleks mikro element ihtiyacı için tam formül'
+      'Kompleks mikro element ihtiyacı için tam formül',
+      'Yüksek Saflık',
+      'Teknik Kalite'
     ],
     detailedDescription: `Agrosol*Max® TopMix, en kapsamlı mikro element formülasyonumuzdur. 
     MgO %16, SO₃ %32, Zn %0.2, B %0.1, Mn %0.1 içerir.
@@ -157,13 +165,15 @@ export const productsData = [
     subtitle: 'Kristal Magnezyum Sülfat',
     description: 'Kristal Magnezyum Sülfat',
     image: product5,
-    specs: ['MgO %16', 'SO₃ %32', '%100 çözünür', 'Yapraktan uygulanır'],
+    specs: ['Suda Çözünebilir MgO %16', 'Suda Çözünebilir SO₃ %32', '%100 çözünür', 'Yapraktan uygulanır'],
     benefits: [
-      'MgO %16 (Magnezyum Oksit)',
-      'SO₃ %32 (Kükürt Trioksit)',
+      'Suda Çözünebilir MgO %16 (Magnezyum Oksit)',
+      'Suda Çözünebilir SO₃ %32 (Kükürt Trioksit)',
       'Suda %100 çözünür',
       'Kristal yapı – Hızlı etki',
-      'Yapraktan ve topraktan uygulanabilir'
+      'Yapraktan ve topraktan uygulanabilir',
+      'Yüksek Saflık',
+      'Teknik Kalite'
     ],
     detailedDescription: `Agrosol*Max®, kristal formda üretilen yüksek saflıkta magnezyum sülfat gübresidir.
     MgO %16, SO₃ %32 içeriği ile bitkilerin magnezyum ve kükürt ihtiyacını hızla karşılar.
@@ -191,12 +201,14 @@ export const productsData = [
     subtitle: 'Çinko Sülfat Monohidrat',
     description: 'Çinko sülfat monohidrat - Çinko eksikliği için ideal',
     image: product6,
-    specs: ['Zn %21', 'Monohidrat', 'Hızlı Etki', 'Kristal Form'],
+    specs: ['Suda Çözünebilir Zn %21', 'Monohidrat', 'Hızlı Etki', 'Kristal Form'],
     benefits: [
-      'Zn %21 (Çinko)',
+      'Suda Çözünebilir Zn %21 (Çinko)',
       'Monohidrat form',
       'Hızlı etki ve yüksek çözünürlük',
-      'Kristal yapı'
+      'Kristal yapı',
+      'Yüksek Saflık',
+      'Teknik Kalite'
     ],
     detailedDescription: `Agrosol*Max® Çinko Tuzu, Zn %21 içeren çinko sülfat monohidrat gübresidir.
     Kristal formda üretilen bu ürün, bitkilerin çinko ihtiyacını karşılamak için özel olarak formüle edilmiştir.

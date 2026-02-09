@@ -8,7 +8,6 @@ import image1 from '../assets/1.jpeg';
 import image2 from '../assets/2.jpeg';
 import image3 from '../assets/3.jpeg';
 import image4 from '../assets/4.jpeg';
-import image5 from '../assets/5.jpeg';
 import image6 from '../assets/6.jpeg';
 import image7 from '../assets/7.jpeg';
 
@@ -27,8 +26,8 @@ const ImageSlider = ({ translations }) => {
     },
     {
       id: 2,
-      image1: image5,
-      image2: image3,
+      image: image3,
+      singleImage: true,
       title: translations?.slider?.slide2Title || 'Modern Tarım',
       description: translations?.slider?.slide2Desc || 'Teknoloji ile donatılmış tarım alanları'
     },
@@ -101,30 +100,41 @@ const ImageSlider = ({ translations }) => {
                 : 'opacity-0 scale-105'
             }`}
           >
-            {/* İki Resim - Desktop yan yana, Mobil alt alta */}
-            <div className="flex flex-col md:flex-row w-full h-full">
-              <div className="w-full md:w-1/2 h-1/2 md:h-full relative">
+            {slide.singleImage ? (
+              /* Tek Resim */
+              <div className="w-full h-full">
                 <img
-                  src={slide.image1}
-                  alt={`${slide.title} - 1`}
+                  src={slide.image}
+                  alt={slide.title}
                   className="w-full h-full object-cover"
                 />
-                {/* Gölge - sağda (desktop) ve altta (mobil) */}
-                <div className="absolute inset-0 shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
-                <div className="absolute inset-0 shadow-[inset_0_-20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
               </div>
-              <div className="w-full md:w-1/2 h-1/2 md:h-full bg-gray-800 flex items-center justify-center relative">
-                <img
-                  src={slide.image2}
-                  alt={`${slide.title} - 2`}
-                  className="w-full h-full object-cover"
-                  style={slide.image2Position ? { objectPosition: slide.image2Position } : {}}
-                />
-                {/* Gölge - solda (desktop) ve üstte (mobil) */}
-                <div className="absolute inset-0 shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
-                <div className="absolute inset-0 shadow-[inset_0_20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
+            ) : (
+              /* İki Resim - Desktop yan yana, Mobil alt alta */
+              <div className="flex flex-col md:flex-row w-full h-full">
+                <div className="w-full md:w-1/2 h-1/2 md:h-full relative">
+                  <img
+                    src={slide.image1}
+                    alt={`${slide.title} - 1`}
+                    className="w-full h-full object-cover"
+                  />
+                  {/* Gölge - sağda (desktop) ve altta (mobil) */}
+                  <div className="absolute inset-0 shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
+                  <div className="absolute inset-0 shadow-[inset_0_-20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
+                </div>
+                <div className="w-full md:w-1/2 h-1/2 md:h-full bg-gray-800 flex items-center justify-center relative">
+                  <img
+                    src={slide.image2}
+                    alt={`${slide.title} - 2`}
+                    className="w-full h-full object-cover"
+                    style={slide.image2Position ? { objectPosition: slide.image2Position } : {}}
+                  />
+                  {/* Gölge - solda (desktop) ve üstte (mobil) */}
+                  <div className="absolute inset-0 shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
+                  <div className="absolute inset-0 shadow-[inset_0_20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
+                </div>
               </div>
-            </div>
+            )}
             
             {/* Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>

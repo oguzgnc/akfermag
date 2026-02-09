@@ -193,7 +193,7 @@ const ProductDetail = ({ translations, language }) => {
                 {/* Product Specific Certificate - Only show if exists */}
                 {product.registrationCertificate && (
                   <>
-                    <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">{translations.productDetail.registrationAndBrandCertificates || 'Tescil Belgesi Ve Marka Tescil Belgeleri'}</h3>
+                    <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">{translations.productDetail.registrationCertificate || 'Tescil Belgesi'}</h3>
                     <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-white p-4 md:p-5 rounded-lg border-2 border-blue-200 mb-6">
                       <div className="flex items-center gap-3">
                         <div className="bg-blue-100 p-3 rounded-lg">
