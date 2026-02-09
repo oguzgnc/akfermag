@@ -9,6 +9,8 @@ import product3 from '../assets/agrosol-max-mix.png';
 import product4 from '../assets/agrosol-max-topmix.png';
 import product5 from '../assets/agrosol-max-17-33.png';
 import product6 from '../assets/agrosol-max-cinko.png';
+import product7 from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
+
 
 const HeroSection = ({ translations }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,7 +20,8 @@ const HeroSection = ({ translations }) => {
     'agrosol-max-fully': product2,
     'agrosol-max-mix': product3,
     'agrosol-max-17': product1,
-    'agrosol-max': product5,
+    'agrosol-max-17-33': product5,
+    'agrosol-max': product7,
     'agrosol-max-zinko': product6
   };
 

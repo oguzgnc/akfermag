@@ -4,6 +4,7 @@ import product3 from '../assets/AGROSOL MAX MIX ÖN YÜZ.png';
 import product4 from '../assets/AGROSOL MAAX TOPMIX.png';
 import product5 from '../assets/AGROSOL MAX 17+33 ÖN YÜZ.png';
 import product6 from '../assets/AGROSOL MAX ÇİNKO TUZU ÖN YÜZ.png';
+import product7 from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
 
 export const productsData = [
   {
@@ -44,6 +45,8 @@ export const productsData = [
     certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
     packaging: ['25 kg Torba', '500 kg BigBag', '1000 kg BigBag']
   },
+  
+  
   {
     id: 'akmag-sh',
     name: 'AKMAG SH',

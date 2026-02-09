@@ -1,7 +1,6 @@
 import React from 'react';
-import { Calendar, Target, Users } from 'lucide-react';
+import { Calendar, Target, Users, Factory, Award, TrendingUp } from 'lucide-react';
 import { Card, CardContent } from './ui/Card';
-import akfermagbImage from '../assets/akfermag-bg.jpg';
 
 const AboutSection = ({ translations }) => {
   const highlights = [
@@ -53,24 +52,64 @@ const AboutSection = ({ translations }) => {
           ))}
         </div>
 
-        {/* Company Image Showcase */}
-        <Card className="mb-8 overflow-hidden">
-          <div className="bg-gradient-to-r from-akfermag-blue/10 to-akfermag-green/10">
-            <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative h-64 md:h-full min-h-[300px] overflow-hidden">
-                <img 
-                  src={akfermagbImage} 
-                  alt="AKFERMAG Facility" 
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6 md:p-8 lg:p-10 flex flex-col justify-center">
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+        {/* Company Showcase - Modern Design */}
+        <Card className="mb-8 overflow-hidden relative">
+          <div className="bg-gradient-to-br from-akfermag-blue/5 via-white to-akfermag-green/5 relative">
+            {/* Decorative Background Elements */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-akfermag-blue/5 rounded-full blur-3xl"></div>
+              <div className="absolute bottom-0 left-0 w-64 h-64 bg-akfermag-green/5 rounded-full blur-3xl"></div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-2 border-akfermag-blue/10 rounded-full"></div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 border-2 border-akfermag-green/10 rounded-full"></div>
+            </div>
+            
+            <div className="p-8 md:p-12 lg:p-16 relative z-10">
+              {/* Icon and Title */}
+              <div className="flex flex-col items-center text-center mb-8">
+                <div className="w-20 h-20 bg-gradient-to-br from-akfermag-blue to-akfermag-green rounded-2xl flex items-center justify-center mb-6 shadow-lg hover:scale-110 transition-transform duration-300">
+                  <Factory className="w-10 h-10 text-white" />
+                </div>
+                <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                   {translations.about.facilityTitle}
                 </h3>
-                <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-                  {translations.about.foundingText}
-                </p>
+              </div>
+
+              {/* Content */}
+              <p className="text-gray-700 text-base md:text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10">
+                {translations.about.foundingText}
+              </p>
+
+              {/* Stats Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 max-w-4xl mx-auto">
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-akfermag-blue/10 group">
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-akfermag-blue to-blue-600 rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                      <Calendar className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="text-3xl font-bold text-akfermag-blue mb-1">2001</div>
+                    <div className="text-sm text-gray-600">{translations.about.foundingYear}</div>
+                  </div>
+                </div>
+                
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-akfermag-green/10 group">
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-akfermag-green to-green-600 rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                      <Award className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="text-3xl font-bold text-akfermag-green mb-1">ISO 9001</div>
+                    <div className="text-sm text-gray-600">Kalite Sertifikası</div>
+                  </div>
+                </div>
+                
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-akfermag-blue/10 group">
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-akfermag-blue rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                      <TrendingUp className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="text-3xl font-bold text-blue-600 mb-1">25+</div>
+                    <div className="text-sm text-gray-600">Yıllık Deneyim</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

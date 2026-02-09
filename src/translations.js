@@ -61,6 +61,17 @@ export const translations = {
         ]
       },
       {
+        id: 'agrosol-max-17-33',
+        name: 'Agrosol*Max® 17-33',
+        subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
+        benefits: [
+          'MgO %17 (Magnezyum)',
+          'SO₃ %33 (Kükürt)',
+          'Kristal form, hızlı çözünürlük',
+          'Teknik Kalite'
+        ]
+      },
+      {
         id: 'agrosol-max',
         name: 'Agrosol*Max®',
         subtitle: 'Kristal Magnezyum Sülfat',
@@ -320,6 +331,17 @@ export const translations = {
         ]
       },
       {
+        id: 'agrosol-max-17-33',
+        name: 'Agrosol*Max® 17-33',
+        subtitle: 'High Purity Magnesium Sulfate',
+        benefits: [
+          'MgO 17% (Magnesium)',
+          'SO₃ 33% (Sulfur)',
+          'Crystal form, fast solubility',
+          'Technical Grade'
+        ]
+      },
+      {
         id: 'agrosol-max',
         name: 'Agrosol*Max®',
         subtitle: 'Crystal Magnesium Sulfate',
@@ -576,6 +598,17 @@ export const translations = {
           'SO₃ 33% (Сірка)',
           'ЄС добриво',
           'Легке застосування з розкидачем'
+        ]
+      },
+      {
+        id: 'agrosol-max-17-33',
+        name: 'Agrosol*Max® 17-33',
+        subtitle: 'Високочистий сульфат магнію',
+        benefits: [
+          'MgO 17% (Магній)',
+          'SO₃ 33% (Сірка)',
+          'Кристалічна форма, швидка розчинність',
+          'Технічна якість'
         ]
       },
       {

@@ -12,7 +12,7 @@ import image6 from '../assets/6.jpeg';
 import image7 from '../assets/7.jpeg';
 
 const ImageSlider = ({ translations }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(1);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
   const slides = [

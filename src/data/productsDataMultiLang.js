@@ -4,7 +4,7 @@ import product3 from '../assets/agrosol-max-mix.png';
 import product4 from '../assets/agrosol-max-topmix.png';
 import product5 from '../assets/agrosol-max-17-33.png';
 import product6 from '../assets/agrosol-max-cinko.png';
-
+import product7 from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
 const productsDataByLanguage = {
   TR: [
     {
@@ -41,7 +41,7 @@ const productsDataByLanguage = {
         vegetables: '100-150 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı'],
-      packaging: ['25 kg Torba', '500 kg BigBag'],
+      packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
       certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
@@ -81,7 +81,7 @@ const productsDataByLanguage = {
         greenhouse: '100-200 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı', 'Mikro Element Garantili'],
-      packaging: ['25 kg Torba', '500 kg BigBag'],
+      packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
       certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
@@ -115,7 +115,39 @@ const productsDataByLanguage = {
         industrial: 'Proses gereksinimlerine göre'
       },
       certifications: ['GMP+ Sertifikalı', 'TSE Belgeli'],
-      packaging: ['25 kg Torba', '1000 kg BigBag']
+      packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag']
+    },
+    {
+      id: 'agrosol-max-17-33',
+      name: 'Agrosol*Max® 17-33',
+      type: 'Magnezyum Sülfat',
+      subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
+      description: 'Yüksek saflıkta kristal magnezyum sülfat - Endüstriyel ve tarımsal kullanım',
+      image: product5,
+      specs: [' MgO %17', ' SO₃ %33', 'TEKNİK KALİTE'],
+      benefits: [
+        'Kristal form, hızlı çözünürlük',
+        'Endüstriyel ve tarımsal kullanım',
+        'Suda Çözünebilir MgO %17, Suda Çözünebilir SO₃ %33 içerik',
+        'Premium kalite standartları',
+        'Yüksek Saflık',
+        'Teknik Kalite',
+        'Endüstriyel bitkilerde kullanılır (şeker pancarı, mısır, ayçiçeği, kırmızı pancar...)'
+      ],
+      detailedDescription: `Kristal yapısı sayesinde suda hızla çözünür ve bitkiler tarafından kolayca alınabilir.`,
+      usage: [
+        'Suda çözünerek yapraktan uygulanabilir',
+        'Damla sulama sistemlerinde kullanılabilir',
+        'Endüstriyel proseslerde magnezyum kaynağı olarak kullanılır',
+        'Hayvan yem katkısı olarak da kullanılabilir'
+      ],
+      applicationRates: {
+        foliarSpray: '2-3 kg/1000 litre su',
+        fertigation: '5-10 kg/dekar',
+        industrial: 'Proses gereksinimlerine göre'
+      },
+      certifications: ['GMP+ Sertifikalı', 'TSE Belgeli'],
+      packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag']
     },
     {
       id: 'agrosol-max-17',
@@ -151,7 +183,7 @@ const productsDataByLanguage = {
         fruitTrees: '100-200 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
-      packaging: ['25 kg Torba', '500 kg BigBag', '1000 kg BigBag'],
+      packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
       certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
@@ -161,11 +193,11 @@ const productsDataByLanguage = {
       type: 'Kristal Magnezyum Sülfat',
       subtitle: 'Kristal Magnezyum Sülfat',
       description: 'Kristal Magnezyum Sülfat',
-      image: product5,
+      image: product7,
       specs: [' MgO %16', ' SO₃ %32'],
       benefits: [
-        'Suda Çözünebilir MgO %16 (Magnezyum Oksit)',
-        'Suda Çözünebilir SO₃ %32 (Kükürt Trioksit)',
+        'Suda Çözünebilir MgO %17 (Magnezyum Oksit)',
+        'Suda Çözünebilir SO₃ %33 (Kükürt Trioksit)',
         'Suda %100 çözünür',
         'Kristal yapı – Hızlı etki',
         'Yapraktan ve topraktan uygulanabilir',
@@ -187,7 +219,7 @@ const productsDataByLanguage = {
         soilApplication: '25-50 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
-      packaging: ['25 kg Torba', '500 kg BigBag', '1000 kg BigBag'],
+      packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
       certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
@@ -222,7 +254,7 @@ const productsDataByLanguage = {
         fertigation: '2-4 kg/dekar'
       },
       certifications: ['EC Gübre Kalite Standardı', 'GMP+ Sertifikalı'],
-      packaging: ['25 kg Torba', '500 kg BigBag'],
+      packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
       certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
@@ -261,7 +293,7 @@ const productsDataByLanguage = {
         vegetables: '100-150 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard'],
-      packaging: ['25 kg Bag', '500 kg BigBag'],
+      packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
       certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
@@ -300,7 +332,7 @@ const productsDataByLanguage = {
         greenhouse: '100-200 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard', 'GlobalGAP Approved'],
-      packaging: ['25 kg Bag', '500 kg BigBag'],
+      packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
       certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
@@ -334,7 +366,39 @@ const productsDataByLanguage = {
         industrial: 'According to process requirements'
       },
       certifications: ['GMP+ Certified', 'TSE Certified'],
-      packaging: ['25 kg Bag', '1000 kg BigBag']
+      packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag']
+    },
+    {
+      id: 'agrosol-max-17-33',
+      name: 'Agrosol*Max® 17-33',
+      type: 'Magnesium Sulfate',
+      subtitle: 'High Purity Magnesium Sulfate',
+      description: 'High purity crystal magnesium sulfate - Industrial and agricultural use',
+      image: product5,
+      specs: [' MgO 17%', ' SO₃ 33%'],
+      benefits: [
+        'Crystal form, fast solubility',
+        'Industrial and agricultural use',
+        'Water Soluble MgO 17%, Water Soluble SO₃ 33% content',
+        'Premium quality standards',
+        'High Purity',
+        'Technical Quality',
+        'Used in industrial plants (sugar beet, corn, sunflower, red beet...)'
+      ],
+      detailedDescription: `Thanks to its crystal structure, it dissolves rapidly in water and can be easily absorbed by plants.`,
+      usage: [
+        'Can be applied foliarly by dissolving in water',
+        'Can be used in drip irrigation systems',
+        'Used as a magnesium source in industrial processes',
+        'Can also be used as animal feed additive'
+      ],
+      applicationRates: {
+        foliarSpray: '2-3 kg/1000 liters water',
+        fertigation: '5-10 kg/decare',
+        industrial: 'According to process requirements'
+      },
+      certifications: ['GMP+ Certified', 'TSE Certified'],
+      packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag']
     },
     {
       id: 'agrosol-max-17',
@@ -370,7 +434,7 @@ const productsDataByLanguage = {
         fruitTrees: '100-200 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard', 'Suitable for Organic Farming'],
-      packaging: ['25 kg Bag', '500 kg BigBag', '1000 kg BigBag'],
+      packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
       certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
@@ -406,7 +470,7 @@ const productsDataByLanguage = {
         soilApplication: '25-50 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard', 'Suitable for Organic Farming'],
-      packaging: ['25 kg Bag', '500 kg BigBag', '1000 kg BigBag'],
+      packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
       certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
@@ -441,7 +505,7 @@ const productsDataByLanguage = {
         fertigation: '2-4 kg/decare'
       },
       certifications: ['EC Fertilizer Quality Standard', 'GMP+ Certified'],
-      packaging: ['25 kg Bag', '500 kg BigBag'],
+      packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
       certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
@@ -480,7 +544,7 @@ const productsDataByLanguage = {
         vegetables: '100-150 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС'],
-      packaging: ['25 кг мішок', '500 кг BigBag'],
+      packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
       registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
       certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
@@ -519,7 +583,7 @@ const productsDataByLanguage = {
         greenhouse: '100-200 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'GlobalGAP затверджено'],
-      packaging: ['25 кг мішок', '500 кг BigBag'],
+      packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
       registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
       certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
@@ -553,7 +617,39 @@ const productsDataByLanguage = {
         industrial: 'Відповідно до вимог процесу'
       },
       certifications: ['Сертифіковано GMP+', 'Сертифіковано TSE'],
-      packaging: ['25 кг мішок', '1000 кг BigBag']
+      packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег']
+    },
+    {
+      id: 'agrosol-max-17-33',
+      name: 'Agrosol*Max® 17-33',
+      type: 'Сульфат магнію',
+      subtitle: 'Високочистий сульфат магнію',
+      description: 'Високочистий кристалічний сульфат магнію - Промислове та сільськогосподарське використання',
+      image: product5,
+      specs: [' MgO 17%', ' SO₃ 33%'],
+      benefits: [
+        'Кристалічна форма, швидка розчинність',
+        'Промислове та сільськогосподарське використання',
+        'Вміст Водорозчинний MgO 17%, Водорозчинний SO₃ 33%',
+        'Преміум стандарти якості',
+        'Висока чистота',
+        'Технічна якість',
+        'Використовується в промислових рослинах (цукровий буряк, кукурудза, соняшник, червоний буряк...)'
+      ],
+      detailedDescription: `Завдяки своїй кристалічній структурі він швидко розчиняється у воді та легко засвоюється рослинами.`,
+      usage: [
+        'Може застосовуватися листково шляхом розчинення у воді',
+        'Може використовуватися в системах крапельного зрошення',
+        'Використовується як джерело магнію в промислових процесах',
+        'Може також використовуватися як кормова добавка для тварин'
+      ],
+      applicationRates: {
+        foliarSpray: '2-3 кг/1000 літрів води',
+        fertigation: '5-10 кг/декар',
+        industrial: 'Відповідно до вимог процесу'
+      },
+      certifications: ['Сертифіковано GMP+', 'Сертифіковано TSE'],
+      packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег']
     },
     {
       id: 'agrosol-max-17',
@@ -589,7 +685,7 @@ const productsDataByLanguage = {
         fruitTrees: '100-200 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Підходить для органічного землеробства'],
-      packaging: ['25 кг мішок', '500 кг BigBag', '1000 кг BigBag'],
+      packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
       registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
       certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
@@ -625,7 +721,7 @@ const productsDataByLanguage = {
         soilApplication: '25-50 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Підходить для органічного землеробства'],
-      packaging: ['25 кг мішок', '500 кг BigBag', '1000 кг BigBag'],
+      packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
       registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
       certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
@@ -660,7 +756,7 @@ const productsDataByLanguage = {
         fertigation: '2-4 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Сертифіковано GMP+'],
-      packaging: ['25 кг мішок', '500 кг BigBag'],
+      packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
       registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
       certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
