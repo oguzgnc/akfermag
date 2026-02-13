@@ -110,28 +110,27 @@ const ImageSlider = ({ translations }) => {
                 />
               </div>
             ) : (
-              /* İki Resim - Desktop yan yana, Mobil alt alta */
-              <div className="flex flex-col md:flex-row w-full h-full">
-                <div className="w-full md:w-1/2 h-1/2 md:h-full relative">
+              /* İki Resim - Desktop yan yana, Mobil tekli (ilk resim gösterilir) */
+              <div className="flex w-full h-full">
+                {/* Mobilde tekli gösterim için ilk görsel tüm alanı kaplar; desktop'ta yarı yarıya */}
+                <div className="w-full md:w-1/2 h-full relative">
                   <img
                     src={slide.image1}
                     alt={`${slide.title} - 1`}
                     className="w-full h-full object-cover"
                   />
-                  {/* Gölge - sağda (desktop) ve altta (mobil) */}
                   <div className="absolute inset-0 shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
-                  <div className="absolute inset-0 shadow-[inset_0_-20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
                 </div>
-                <div className="w-full md:w-1/2 h-1/2 md:h-full bg-gray-800 flex items-center justify-center relative">
+
+                {/* İkinci görsel sadece md ve üstünde görünür; mobilde gizlenir */}
+                <div className="hidden md:block md:w-1/2 md:h-full bg-gray-800 flex items-center justify-center relative">
                   <img
                     src={slide.image2}
                     alt={`${slide.title} - 2`}
                     className="w-full h-full object-cover"
                     style={slide.image2Position ? { objectPosition: slide.image2Position } : {}}
                   />
-                  {/* Gölge - solda (desktop) ve üstte (mobil) */}
-                  <div className="absolute inset-0 shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
-                  <div className="absolute inset-0 shadow-[inset_0_20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
+                  <div className="absolute inset-0 shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
                 </div>
               </div>
             )}

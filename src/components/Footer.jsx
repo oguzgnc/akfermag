@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Instagram } from 'lucide-react';
 import { X } from 'lucide-react';
@@ -101,6 +101,12 @@ const Footer = ({ translations }) => {
                 <Link to="/product/agrosol-max-fully" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
                   Agrosol*Max® 
+                </Link>
+              </li>
+              <li>
+                <Link to="/product/agrosol-max-17-33" className="text-gray-400 hover:text-akfermag-green transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 bg-akfermag-green rounded-full"></span>
+                  Agrosol*Max® 17-33
                 </Link>
               </li>
               <li>

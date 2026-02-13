@@ -3,31 +3,30 @@ import { Link } from 'react-router-dom';
 import { Leaf, Droplets, Sparkles, CheckCircle, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from './ui/Button';
 import ProductName from './ProductName';
-import product1 from '../assets/agrosol-max-granulous-17.png';
-import product2 from '../assets/agrosol-max-fully.png';
-import product3 from '../assets/agrosol-max-mix.png';
-import product4 from '../assets/agrosol-max-topmix.png';
-import product5 from '../assets/agrosol-max-17-33.png';
-import product6 from '../assets/agrosol-max-cinko.png';
-import product7 from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
-
+import granulous17 from '../assets/agrosol-max-granulous-17.png';
+import fullyWater from '../assets/agrosol-max-fully.png';
+import mix from '../assets/agrosol-max-mix.png';
+import topmix from '../assets/agrosol-max-topmix.png';
+import seventeen33 from '../assets/agrosol-max-17-33.png';
+import zinko from '../assets/agrosol-max-cinko.png';
+import crystalFront from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
 
 const HeroSection = ({ translations }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const imageMap = {
-    'agrosol-max-topmix': product4,
-    'agrosol-max-fully': product2,
-    'agrosol-max-mix': product3,
-    'agrosol-max-17': product1,
-    'agrosol-max-17-33': product5,
-    'agrosol-max': product7,
-    'agrosol-max-zinko': product6
+    'agrosol-max-topmix': topmix,
+    'agrosol-max-fully': fullyWater,
+    'agrosol-max-mix': mix,
+    'agrosol-max-17': granulous17,
+    'agrosol-max-17-33': seventeen33,
+    'agrosol-max': crystalFront,
+    'agrosol-max-zinko': zinko
   };
 
   const products = translations.heroProducts.map((product) => ({
     ...product,
-    image: imageMap[product.id] || product3
+    image: imageMap[product.id] || granulous17
   }));
 
   const currentProduct = products[currentIndex];

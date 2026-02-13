@@ -1,10 +1,10 @@
-import product1 from '../assets/AGROSOL MAX GRANULOUS 17 33 TÜRKÇE ÖN YÜZ.png';
-import product2 from '../assets/AKMAG SH_ÖN YÜZ.png';
-import product3 from '../assets/AGROSOL MAX MIX ÖN YÜZ.png';
-import product4 from '../assets/AGROSOL MAAX TOPMIX.png';
-import product5 from '../assets/AGROSOL MAX 17+33 ÖN YÜZ.png';
-import product6 from '../assets/AGROSOL MAX ÇİNKO TUZU ÖN YÜZ.png';
-import product7 from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
+import granulous17 from '../assets/AGROSOL MAX GRANULOUS 17 33 TÜRKÇE ÖN YÜZ.png';
+import akmagSh from '../assets/AKMAG SH_ÖN YÜZ.png';
+import mix from '../assets/AGROSOL MAX MIX ÖN YÜZ.png';
+import topmix from '../assets/AGROSOL MAAX TOPMIX.png';
+import seventeen33 from '../assets/AGROSOL MAX 17+33 ÖN YÜZ.png';
+import zinko from '../assets/AGROSOL MAX ÇİNKO TUZU ÖN YÜZ.png';
+import crystalFront from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
 
 export const productsData = [
   {
@@ -13,7 +13,7 @@ export const productsData = [
     type: 'Magnezyum Sülfat',
     subtitle: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
     description: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
-    image: product1,
+    image: granulous17,
     specs: ['Suda Çözünebilir MgO %17', 'Suda Çözünebilir SO₃ %33', 'EC Gübre', 'FIRFIR ile atılır'],
     benefits: [
       'Suda Çözünebilir MgO %17 (Magnezyum Oksit)',
@@ -53,7 +53,7 @@ export const productsData = [
     type: 'Magnezyum Sülfat',
     subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
     description: 'Yüksek saflıkta kristal magnezyum sülfat - Endüstriyel ve tarımsal kullanım',
-    image: product2,
+    image: akmagSh,
     specs: ['Suda Çözünebilir MgO %16', 'Suda Çözünebilir SO₃ %32', 'Kristal Form', 'Yüksek Saflık'],
     benefits: [
       'Kristal form, hızlı çözünürlük',
@@ -88,7 +88,7 @@ export const productsData = [
     type: 'Mikro Element Zenginleştirilmiş',
     subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
     description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat', 
-    image: product3,
+    image: mix,
     specs: ['Suda Çözünebilir MgO %15', 'Suda Çözünebilir SO₃ %30', 'Suda Çözünebilir Zn %0.7', 'EC Gübre'],
     benefits: [
       'Suda Çözünebilir MgO %15 (Magnezyum Oksit)',
@@ -127,7 +127,7 @@ export const productsData = [
     type: 'Mikro Element Zenginleştirilmiş',
     subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
     description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
-    image: product4,
+    image: topmix,
     specs: ['Suda Çözünebilir MgO %16', 'Suda Çözünebilir SO₃ %32', 'Suda Çözünebilir Zn %0.2', 'Suda Çözünebilir B+Mn %0.1'],
     benefits: [
       'Suda Çözünebilir MgO %16 (Magnezyum Oksit)',
@@ -148,10 +148,10 @@ export const productsData = [
     Bu zengin mikro element kompozisyonu, bitkilerin tüm gelişim dönemlerinde ihtiyaç duyduğu 
     besin elementlerini bir arada sunar. EC Gübre Kalite standardında üretilir.`,
     usage: [
-      'Özellikle meyve ağaçları ve sebze yetiştiriciliğinde kullanılır',
-      'Çoklu mikro element eksikliği olan topraklarda tercih edilir',
-      'FIRFIR ve MİBZER ile taban gübresi olarak uygulanır',
-      'Yüksek verimli tarım sistemlerinde önerilir'
+      'Özellikle Meyve Ağaçları ve Sebze Yetiştiriciliğinde Kullanılır',
+      'Çoklu Mikro Element Eksikliği Olan Topraklarda Tercih Edilir',
+      'FIRFIR ve MİBZER İle Taban Gübresi Olarak Uygulanır',
+      'Yüksek Verimli Tarım Sistemlerinde Önerilir'
     ],
     applicationRates: {
       fruitTrees: '100-150 kg/dekar',
@@ -167,7 +167,7 @@ export const productsData = [
     type: 'Kristal Magnezyum Sülfat',
     subtitle: 'Kristal Magnezyum Sülfat',
     description: 'Kristal Magnezyum Sülfat',
-    image: product5,
+    image: seventeen33,
     specs: ['Suda Çözünebilir MgO %16', 'Suda Çözünebilir SO₃ %32', '%100 çözünür', 'Yapraktan uygulanır'],
     benefits: [
       'Suda Çözünebilir MgO %16 (Magnezyum Oksit)',
@@ -203,7 +203,7 @@ export const productsData = [
     type: 'Çinko Gübresi',
     subtitle: 'Çinko Sülfat Monohidrat',
     description: 'Çinko sülfat monohidrat - Çinko eksikliği için ideal',
-    image: product6,
+    image: zinko,
     specs: ['Suda Çözünebilir Zn %21', 'Monohidrat', 'Hızlı Etki', 'Kristal Form'],
     benefits: [
       'Suda Çözünebilir Zn %21 (Çinko)',
