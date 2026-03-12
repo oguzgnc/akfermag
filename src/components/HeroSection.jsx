@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Leaf, Droplets, Sparkles, CheckCircle, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Leaf, Droplets, Sparkles, ArrowRight, ChevronLeft, ChevronRight, ArrowRight as ArrowIcon } from 'lucide-react';
 import { Button } from './ui/Button';
 import ProductName from './ProductName';
-import granulous17 from '../assets/agrosol-max-granulous-17.png';
-import fullyWater from '../assets/agrosol-max-fully.png';
-import mix from '../assets/agrosol-max-mix.png';
-import topmix from '../assets/agrosol-max-topmix.png';
-import seventeen33 from '../assets/agrosol-max-17-33.png';
-import zinko from '../assets/agrosol-max-cinko.png';
-import crystalFront from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
+import granulous17 from '../assets/agrosol-max-granulous-17.webp';
+import fullyWater from '../assets/agrosol-max-fully.webp';
+import mix from '../assets/agrosol-max-mix.webp';
+import topmix from '../assets/agrosol-max-topmix.webp';
+import seventeen33 from '../assets/agrosol-max-17-33.webp';
+import zinko from '../assets/agrosol-max-cinko.webp';
+import crystalFront from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).webp';
 
 const HeroSection = ({ translations }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -141,8 +141,8 @@ const HeroSection = ({ translations }) => {
                   className="flex items-start gap-2 md:gap-3 group animate-slideInRight"
                   style={{ animationDelay: `${0.2 + index * 0.1}s` }}
                 >
-                  <div className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-akfermag-green to-akfermag-dark-green rounded-full flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-200">
-                    <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-white" strokeWidth={2.5} />
+                  <div className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-akfermag-blue to-akfermag-green rounded-full flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-200">
+                    <ArrowIcon className="w-4 h-4 md:w-5 md:h-5 text-white" strokeWidth={3} />
                   </div>
                   <p className="text-sm md:text-base text-gray-700 leading-relaxed pt-1 md:pt-2">
                     {benefit}

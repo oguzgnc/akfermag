@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle, Package, Award, Leaf, FileCheck, Download } from 'lucide-react';
+import { ArrowLeft, ArrowRight as ArrowIcon, Package, Award, Leaf, FileCheck, Download } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 import ProductName from '../components/ProductName';
 import { getProductsData } from '../data/productsDataMultiLang';
@@ -106,7 +106,7 @@ const ProductDetail = ({ translations, language }) => {
                 <div className="space-y-2 md:space-y-3">
                   {product.benefits.map((benefit, index) => (
                     <div key={index} className="flex items-start gap-2 md:gap-3">
-                      <CheckCircle size={18} className="md:w-5 md:h-5 text-akfermag-green flex-shrink-0 mt-0.5" />
+                      <ArrowIcon size={18} className="md:w-5 md:h-5 text-akfermag-blue flex-shrink-0 mt-0.5" strokeWidth={3} />
                       <span className="text-sm md:text-base text-gray-700">{benefit}</span>
                     </div>
                   ))}

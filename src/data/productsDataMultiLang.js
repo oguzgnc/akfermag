@@ -1,10 +1,10 @@
-import granulous17 from '../assets/agrosol-max-granulous-17.png';
-import fullyWater from '../assets/agrosol-max-fully.png';
-import mix from '../assets/agrosol-max-mix.png';
-import topmix from '../assets/agrosol-max-topmix.png';
-import seventeen33 from '../assets/agrosol-max-17-33.png';
-import zinko from '../assets/agrosol-max-cinko.png';
-import crystalFront from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).png';
+import product1 from '../assets/agrosol-max-granulous-17.webp';
+import product2 from '../assets/agrosol-max-fully.webp';
+import product3 from '../assets/agrosol-max-mix.webp';
+import product4 from '../assets/agrosol-max-topmix.webp';
+import product5 from '../assets/agrosol-max-17-33.webp';
+import product6 from '../assets/agrosol-max-cinko.webp';
+import product7 from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).webp';
 const productsDataByLanguage = {
   TR: [
     {
@@ -13,13 +13,13 @@ const productsDataByLanguage = {
       type: 'Magnezyum Sülfat',
       subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
       description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
-      image: mix,
+      image: product3,
       specs: [' MgO %15', ' SO₃ %30', ' Zn %0.7'],
       benefits: [
         'Suda Çözünebilir MgO %15 (Magnezyum Oksit)',
         'Suda Çözünebilir SO₃ %30 (Kükürt Trioksit)',
         'Suda Çözünebilir Zn %0.7 (Çinko)',
-        'EC FERTILIZER',
+        'EC Gübre Kalite',
         'Toprakta yavaş çözünür – Hızla yıkanmaz',
         'FIRFIR ve MİBZER ile atılır',
         'Magnezyum ve Çinko eksikliği için ekonomik çözüm',
@@ -27,20 +27,20 @@ const productsDataByLanguage = {
         'Teknik Kalite',
         'Endüstriyel bitkilerde kullanılır (şeker pancarı, mısır, ayçiçeği, kırmızı pancar...)'
       ],
-      detailedDescription: `EC FERTILIZER standardında üretilen bu ürün, özellikle çinko eksikliği görülen topraklarda 
+      detailedDescription: `EC Gübre Kalite standardında üretilen bu ürün, özellikle çinko eksikliği görülen topraklarda 
     mükemmel sonuçlar verir.`,
       usage: [
-        'Taban Gübresi Olarak Ekimden Önce Uygulanır.',
-        'FIRFIR ve MİBZER İle Kolayca Atılabilir.',
-        'Özellikle Tahıl ve Mısır Ekiminde Tercih Edilir.',
-        'Çinko Eksikliği Riski Yüksek Topraklarda Önerilir.'
+        'Taban gübresi olarak ekimden önce uygulanır',
+        'FIRFIR ve MİBZER ile kolayca atılabilir',
+        'Özellikle tahıl ve mısır ekiminde tercih edilir',
+        'Çinko eksikliği riski yüksek topraklarda önerilir'
       ],
       applicationRates: {
-        cereals: '50-75 kg/dekar',
-        corn: '75-100 kg/dekar',
-        vegetables: '100-150 kg/dekar'
+        cereals: '10-15 kg/dekar',
+        corn: '10-15 kg/dekar',
+        vegetables: '10-15 kg/dekar'
       },
-      certifications: ['EC FERTILIZER Standardı'],
+      certifications: ['EC Gübre Kalite Standardı'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
       certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
@@ -51,7 +51,7 @@ const productsDataByLanguage = {
       type: 'Magnezyum Sülfat',
       subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
       description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
-      image: topmix,
+      image: product4,
       specs: [' MgO %16', ' SO₃ %32',  ' B %0.1', ' Mn %0.1' , ' Zn %0.2'],
       benefits: [
         'Suda Çözünebilir MgO %16 (Magnezyum Oksit)',
@@ -59,7 +59,7 @@ const productsDataByLanguage = {
         'Suda Çözünebilir B %0.1 (Bor)',
         'Suda Çözünebilir Mn %0.1 (Mangan)',
         'Suda Çözünebilir Zn %0.2 (Çinko)',
-        'EC FERTILIZER',
+        'EC Gübre Kalite',
         'Toprakta yavaş çözünür – Hızla yıkanmaz',
         'FIRFIR ve MİBZER ile atılır',
         'Kompleks mikro element ihtiyacı için tam formül',
@@ -68,19 +68,19 @@ const productsDataByLanguage = {
         'Endüstriyel bitkilerde kullanılır (şeker pancarı, mısır, ayçiçeği, kırmızı pancar...)'
       ],
       detailedDescription: `Bu zengin mikro element kompozisyonu, bitkilerin tüm gelişim dönemlerinde ihtiyaç duyduğu 
-    besin elementlerini bir arada sunar. EC FERTILIZER standardında üretilir.`,
+    besin elementlerini bir arada sunar. EC Gübre Kalite standardında üretilir.`,
       usage: [
-        'Özellikle Meyve Ağaçları ve Sebze Yetiştiriciliğinde Kullanılır.',
-        'Çoklu Mikro Element Eksikliği Olan Topraklarda Tercih Edilir.',
-        'FIRFIR ve MİBZER İle Taban Gübresi Olarak Uygulanır.',
-        'Yüksek Verimli Tarım Sistemlerinde Önerilir.'
+        'Özellikle meyve ağaçları ve sebze yetiştiriciliğinde kullanılır',
+        'Çoklu mikro element eksikliği olan topraklarda tercih edilir',
+        'FIRFIR ve MİBZER ile taban gübresi olarak uygulanır',
+        'Yüksek verimli tarım sistemlerinde önerilir'
       ],
       applicationRates: {
-        fruitTrees: '100-150 kg/dekar',
-        vegetables: '75-125 kg/dekar',
-        greenhouse: '100-200 kg/dekar'
+        fruitTrees: '10-15 kg/dekar',
+        vegetables: '10-15 kg/dekar',
+        greenhouse: '10-15 kg/dekar'
       },
-      certifications: ['EC FERTILIZER Standardı', 'Mikro Element Garantili'],
+      certifications: ['EC Gübre Kalite Standardı', 'Mikro Element Garantili'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
       certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
@@ -91,28 +91,28 @@ const productsDataByLanguage = {
       type: 'Magnezyum Sülfat',
       subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
       description: 'Yüksek saflıkta kristal magnezyum sülfat - Endüstriyel ve tarımsal kullanım',
-      image: fullyWater,
+      image: product2,
       specs: [' MgO %16', ' SO₃ %32', 'TEKNİK KALİTE'],
       benefits: [
-        'Kristal Form, Hızlı Çözünürlük',
-        'Endüstriyel Ve Tarımsal Kullanım',
+        'Kristal form, hızlı çözünürlük',
+        'Endüstriyel ve tarımsal kullanım',
         'Suda Çözünebilir MgO %16, Suda Çözünebilir SO₃ %32 içerik',
-        'Premium Kalite Standartları',
+        'Premium kalite standartları',
         'Yüksek Saflık',
         'Teknik Kalite',
-        'Endüstriyel Bitkilerde Kullanılır (Şeker Pancarı, Mısır, Ayçiçeği, Kırmızı Pancar...)'
+        'Endüstriyel bitkilerde kullanılır (şeker pancarı, mısır, ayçiçeği, kırmızı pancar...)'
       ],
-      detailedDescription: `Kristal Yapısı Sayesinde Suda Hızlı Çözünür Ve Bitkiler Tarafından Kolayca Alınabilir.`,
+      detailedDescription: `Kristal yapısı sayesinde suda hızla çözünür ve bitkiler tarafından kolayca alınabilir.`,
       usage: [
-        'Suda Çözünerek Yapraktan Uygulanabilir.',
-        'Damla Sulama Sistemlerinde Kullanılabilir.',
-        'Endüstriyel Proseslerde Magnezyum Kaynağı Olarak Kullanılır.',
-        'Hayvan Yem Katkısı Olarak Da Kullanılabilir.'
+        'Suda çözünerek yapraktan uygulanabilir',
+        'Damla sulama sistemlerinde kullanılabilir',
+        'Endüstriyel proseslerde magnezyum kaynağı olarak kullanılır',
+        'Hayvan yem katkısı olarak da kullanılabilir'
       ],
       applicationRates: {
-        foliarSpray: '2-3 kg/1000 litre su',
-        fertigation: '5-10 kg/dekar',
-        industrial: 'Proses Gereksinimlerine Göre'
+        foliarSpray: '10-15 kg/1000 litre su',
+        fertigation: '10-15 kg/dekar',
+        industrial: 'Proses gereksinimlerine göre'
       },
       certifications: ['GMP+ Sertifikalı', 'TSE Belgeli'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag']
@@ -122,29 +122,28 @@ const productsDataByLanguage = {
       name: 'Agrosol*Max® 17-33',
       type: 'Magnezyum Sülfat',
       subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
-      description: 'Yüksek Saflıkta Kristal Magnezyum Sülfat - Endüstriyel Ve Tarımsal Kullanım',
-      image: seventeen33,
+      description: 'Yüksek saflıkta kristal magnezyum sülfat - Endüstriyel ve tarımsal kullanım',
+      image: product5,
       specs: [' MgO %17', ' SO₃ %33', 'TEKNİK KALİTE'],
       benefits: [
-        'Kristal Form, Hızlı Çözünürlük',
-        'Endüstriyel Ve Tarımsal Kullanım',
+        'Kristal form, hızlı çözünürlük',
+        'Endüstriyel ve tarımsal kullanım',
         'Suda Çözünebilir MgO %17, Suda Çözünebilir SO₃ %33 içerik',
-        'Premium Kalite Standartları',
+        'Premium kalite standartları',
         'Yüksek Saflık',
         'Teknik Kalite',
-        'Endüstriyel Bitkilerde Kullanılır (Şeker Pancarı, Mısır, Ayçiçeği, Kırmızı Pancar...)',
-        'EC Fertilizer'
+        'Endüstriyel bitkilerde kullanılır (şeker pancarı, mısır, ayçiçeği, kırmızı pancar...)'
       ],
-      detailedDescription: `Kristal Yapısı Sayesinde Suda Hızlı Çözünür Ve Bitkiler Tarafından Kolayca Alınabilir.`,
+      detailedDescription: `Kristal yapısı sayesinde suda hızla çözünür ve bitkiler tarafından kolayca alınabilir.`,
       usage: [
-        'Suda Çözünerek Yapraktan Uygulanabilir.',
-        'Damla Sulama Sistemlerinde Kullanılabilir.',
-        'Endüstriyel Proseslerde Magnezyum Kaynağı Olarak Kullanılır.',
-        'Hayvan Yem Katkısı Olarak Da Kullanılabilir.'
+        'Suda çözünerek yapraktan uygulanabilir',
+        'Damla sulama sistemlerinde kullanılabilir',
+        'Endüstriyel proseslerde magnezyum kaynağı olarak kullanılır',
+        'Hayvan yem katkısı olarak da kullanılabilir'
       ],
       applicationRates: {
-        foliarSpray: '2-3 kg/1000 litre su',
-        fertigation: '5-10 kg/dekar',
+        foliarSpray: '10-15 kg/1000 litre su',
+        fertigation: '10-15 kg/dekar',
         industrial: 'Proses gereksinimlerine göre'
       },
       certifications: ['GMP+ Sertifikalı', 'TSE Belgeli'],
@@ -156,12 +155,12 @@ const productsDataByLanguage = {
       type: 'Magnezyum Sülfat',
       subtitle: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
       description: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
-      image: granulous17,
+      image: product1,
       specs: [' MgO %17', ' SO₃ %33'],
       benefits: [
         'Suda Çözünebilir MgO %17 (Magnezyum Oksit)',
         'Suda Çözünebilir SO₃ %33 (Kükürt Trioksit)',
-        'EC FERTILIZER',
+        'EC Gübre Kalite',
         'Toprakta yavaş çözünür – Hızla yıkanmaz',
         'Açık tarla ve meyvecilikte fırfır ile kullanım kolaylığı',
         'Magnezyum ve Kükürt ihtiyacı için ekonomik ve güvenilir bitki besin kaynağı',
@@ -170,20 +169,20 @@ const productsDataByLanguage = {
         'Teknik Kalite',
         'Endüstriyel bitkilerde kullanılır (şeker pancarı, mısır, ayçiçeği, kırmızı pancar...)'
       ],
-      detailedDescription: `EC FERTILIZER standardında üretilen bu ürün, toprakta yavaş çözünür ve hızla yıkanmaz. 
+      detailedDescription: `EC Gübre Kalite standardında üretilen bu ürün, toprakta yavaş çözünür ve hızla yıkanmaz. 
     Bu özelliği sayesinde uzun süreli etki sağlar ve besin kaybını minimize eder.`,
       usage: [
-        'Açık Tarla ve Meyvecilik Uygulamaları İçin İdealdir.',
-        'FIRFIR İle Kolayca Uygulanabilir.',
-        'Kompoze Taban Gübreleri Ve NPK İle Karıştırılarak Kullanılabilir.',
-        'Magnezyum Eksikliği Görülen Alanlarda Öncelikli Olarak Tercih Edilir.'
+        'Açık tarla ve meyvecilik uygulamaları için idealdir',
+        'FIRFIR ile kolayca uygulanabilir',
+        'Kompoze taban gübreleri ve NPK ile karıştırılarak kullanılabilir',
+        'Magnezyum eksikliği görülen alanlarda öncelikli olarak tercih edilir'
       ],
       applicationRates: {
-        fieldCrops: '50-100 kg/dekar',
-        vegetables: '75-150 kg/dekar',
-        fruitTrees: '100-200 kg/dekar'
+        fieldCrops: '10-15 kg/dekar',
+        vegetables: '10-15 kg/dekar',
+        fruitTrees: '10-15 kg/dekar'
       },
-      certifications: ['EC FERTILIZER Standardı', 'Organik Tarıma Uygun'],
+      certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
       certificateName: 'Agrosol-Max-17-Tescil.pdf'
@@ -194,33 +193,32 @@ const productsDataByLanguage = {
       type: 'Kristal Magnezyum Sülfat',
       subtitle: 'Kristal Magnezyum Sülfat',
       description: 'Kristal Magnezyum Sülfat',
-      image: crystalFront,
+      image: product7,
       specs: [' MgO %16', ' SO₃ %32'],
       benefits: [
         'Suda Çözünebilir MgO %17 (Magnezyum Oksit)',
         'Suda Çözünebilir SO₃ %33 (Kükürt Trioksit)',
         'Suda %100 çözünür',
         'Kristal yapı – Hızlı etki',
-        'Yapraktan Ve Topraktan Uygulanabilir',
-        'EC FERTILIZER',
+        'Yapraktan ve topraktan uygulanabilir',
         'Yüksek Saflık',
         'Teknik Kalite',
-        'Endüstriyel Bitkilerde Kullanılır (Şeker Pancarı, Mısır, Ayçiçeği, Kırmızı Pancar...)'
+        'Endüstriyel bitkilerde kullanılır (şeker pancarı, mısır, ayçiçeği, kırmızı pancar...)'
       ],
       detailedDescription: `Suda %100 çözünür yapısı sayesinde hem yapraktan püskürtme hem de toprak uygulaması için idealdir.
     Kristal yapısı hızlı etki sağlar ve bitki tarafından kolayca alınır.`,
       usage: [
-        'Yapraktan Püskürtme Olarak Uygulanabilir.',
-        'Damla Sulama Sistemlerinde Kullanılır.',
-        'Fertigasyon Uygulamalarında Tercih Edilir.',
-        'Magnezyum Eksikliği Belirtilerinde Hızlı Müdahale İçin Idealdir.'
+        'Yapraktan püskürtme olarak uygulanabilir',
+        'Damla sulama sistemlerinde kullanılır',
+        'Fertigasyon uygulamalarında tercih edilir',
+        'Magnezyum eksikliği belirtilerinde hızlı müdahale için idealdir'
       ],
       applicationRates: {
-        foliarSpray: '2-3 kg/1000 litre su',
-        fertigation: '5-10 kg/dekar',
-        soilApplication: '25-50 kg/dekar'
+        foliarSpray: '10-15 kg/1000 litre su',
+        fertigation: '10-15 kg/dekar',
+        soilApplication: '10-15 kg/dekar'
       },
-      certifications: ['EC FERTILIZER Standardı', 'Organik Tarıma Uygun'],
+      certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
       certificateName: 'Agrosol-Max-EC-Tescil.pdf'
@@ -230,32 +228,32 @@ const productsDataByLanguage = {
       name: 'Agrosol*Max® Çinko Tuzu',
       type: 'Çinko Gübresi',
       subtitle: 'Çinko Sülfat Monohidrat',
-      description: 'Çinko Sülfat Monohidrat - Çinko Eksikliği İçin Ideal',
-      image: zinko,
+      description: 'Çinko sülfat monohidrat - Çinko eksikliği için ideal',
+      image: product6,
       specs: [' Zn %21'],
       benefits: [
         'Suda Çözünebilir Zn %21 (Çinko)',
         'Monohidrat form',
-        'Hızlı Etki Ve Yüksek Çözünürlük',
-        'Kristal Yapı',
+        'Hızlı etki ve yüksek çözünürlük',
+        'Kristal yapı',
         'Yüksek Saflık',
         'Teknik Kalite',
-        'Endüstriyel Bitkilerde Kullanılır (Şeker Pancarı, Mısır, Ayçiçeği, Kırmızı Pancar...)'
+        'Endüstriyel bitkilerde kullanılır (şeker pancarı, mısır, ayçiçeği, kırmızı pancar...)'
       ],
       detailedDescription: `Çinko, bitki gelişimi, enzim aktivitesi ve hormon sentezi için kritik öneme sahip bir mikro elementtir.
     Özellikle tahıl, mısır ve meyve ağaçlarında çinko eksikliği yaygın olarak görülür.`,
       usage: [
-        'Topraktan Uygulamada Taban Gübresi Olarak Kullanılır.',
-        'Yapraktan Püskürtme İle Hızlı Düzeltme Sağlar.',
-        'Damla Sulama Sistemlerinde Uygulanabilir.',
-        'Çinko Eksikliği Belirtilerinde Acil Müdahale İçin İdealdir.'
+        'Topraktan uygulamada taban gübresi olarak kullanılır',
+        'Yapraktan püskürtme ile hızlı düzeltme sağlar',
+        'Damla sulama sistemlerinde uygulanabilir',
+        'Çinko eksikliği belirtilerinde acil müdahale için idealdir'
       ],
       applicationRates: {
-        soilApplication: '3-5 kg/dekar',
-        foliarSpray: '200-300 gr/1000 litre su',
-        fertigation: '2-4 kg/dekar'
+        soilApplication: '10-15 kg/dekar',
+        foliarSpray: '10-15 kg/1000 litre su',
+        fertigation: '10-15 kg/dekar'
       },
-      certifications: ['EC FERTILIZER Standardı', 'GMP+ Sertifikalı'],
+      certifications: ['EC Gübre Kalite Standardı', 'GMP+ Sertifikalı'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
       registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
       certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
@@ -268,33 +266,33 @@ const productsDataByLanguage = {
       type: 'Magnesium Sulfate',
       subtitle: 'Micro Element Enriched Magnesium Sulfate',
       description: 'Micro Element Enriched Magnesium Sulfate',
-      image: mix,
-      specs: ['MgO 15%', 'SO₃ 30%', 'Zn 0.7%'],
+      image: product3,
+      specs: [' MgO 15%', ' SO₃ 30%', ' Zn 0.7%'],
       benefits: [
         'Water Soluble MgO 15% (Magnesium Oxide)',
         'Water Soluble SO₃ 30% (Sulfur Trioxide)',
         'Water Soluble Zn 0.7% (Zinc)',
-        'EC FERTILIZER',
+        'EC Fertilizer Grade',
         'Slow dissolution in soil – Does not wash away quickly',
         'Applied with SPREADER and SEED DRILL',
         'Economic solution for magnesium and zinc deficiency',
         'High Purity',
-        'TECHNICAL QUALITY',
+        'Technical Quality',
         'Used in industrial plants (sugar beet, corn, sunflower, red beet...)'
       ],
-      detailedDescription: `Produced at EC FERTILIZER Quality standard, this product gives excellent results especially in soils with zinc deficiency.`,
+      detailedDescription: `Produced at EC Fertilizer Quality standard, this product gives excellent results especially in soils with zinc deficiency.`,
       usage: [
-        'Applied As Base Fertilizer Before Planting.',
-        'Can Be Easily Applied With SPREADER and SEED DRILL.',
-        'Particularly Preferred In Cereal and Corn Planting.',
-        'Recommended For Soils With High Zinc Deficiency Risk.'
+        'Applied as base fertilizer before planting',
+        'Can be easily applied with SPREADER and SEED DRILL',
+        'Particularly preferred in cereal and corn planting',
+        'Recommended for soils with high zinc deficiency risk'
       ],
       applicationRates: {
-        cereals: '50-75 kg/decare',
-        corn: '75-100 kg/decare',
-        vegetables: '100-150 kg/decare'
+        cereals: '10-15 kg/decare',
+        corn: '10-15 kg/decare',
+        vegetables: '10-15 kg/decare'
       },
-      certifications: ['EC FERTILIZER Quality Standard'],
+      certifications: ['EC Fertilizer Quality Standard'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
       certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
@@ -305,35 +303,35 @@ const productsDataByLanguage = {
       type: 'Magnesium Sulfate',
       subtitle: 'Micro Element Enriched Magnesium Sulfate',
       description: 'Micro Element Enriched Magnesium Sulfate',
-      image: topmix,
-      specs: ['MgO 16%', 'SO₃ 32%', 'Zn 0.2%', 'B 0.1%', 'Mn 0.1%'],
+      image: product4,
+      specs: [' MgO 16%', ' SO₃ 32%', ' Zn 0.2%', ' B 0.1%', ' Mn 0.1%'],
       benefits: [
         'Water Soluble MgO 16% (Magnesium Oxide)',
         'Water Soluble SO₃ 32% (Sulfur Trioxide)',
         'Water Soluble Zn 0.2% (Zinc)',
         'Water Soluble B 0.1% (Boron)',
         'Water Soluble Mn 0.1% (Manganese)',
-        'EC FERTILIZER',
+        'EC Fertilizer Grade',
         'Slow dissolution in soil – Does not wash away quickly',
         'Applied with SPREADER and SEED DRILL',
         'Complete formula for complex microelement needs',
         'High Purity',
-        'TECHNICAL QUALITY',
+        'Technical Quality',
         'Used in industrial plants (sugar beet, corn, sunflower, red beet...)'
       ],
-      detailedDescription: `This rich microelement composition offers the nutrient elements that plants need throughout all growth periods together. Produced at EC FERTILIZER Quality standard.`,
+      detailedDescription: `This rich microelement composition offers the nutrient elements that plants need throughout all growth periods together. Produced at EC Fertilizer Quality standard.`,
       usage: [
-        'Particularly Used In Fruit Trees And Vegetable Cultivation.',
-        'Preferred In Soils With Multiple Microelement Deficiencies.',
-        'Applied As Base Fertilizer With SPREADER and SEED DRILL.',
-        'Recommended In High-Yield Agricultural Systems.'
+        'Particularly used in fruit trees and vegetable cultivation',
+        'Preferred in soils with multiple microelement deficiencies',
+        'Applied as base fertilizer with SPREADER and SEED DRILL',
+        'Recommended in high-yield agricultural systems'
       ],
       applicationRates: {
-        fruitTrees: '100-150 kg/decare',
-        vegetables: '75-125 kg/decare',
-        greenhouse: '100-200 kg/decare'
+        fruitTrees: '10-15 kg/decare',
+        vegetables: '10-15 kg/decare',
+        greenhouse: '10-15 kg/decare'
       },
-      certifications: ['EC FERTILIZER Quality Standard', 'GlobalGAP Approved'],
+      certifications: ['EC Fertilizer Quality Standard', 'GlobalGAP Approved'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
       certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
@@ -344,27 +342,27 @@ const productsDataByLanguage = {
       type: 'Magnesium Sulfate',
       subtitle: 'High Purity Magnesium Sulfate',
       description: 'High purity crystal magnesium sulfate - Industrial and agricultural use',
-      image: fullyWater,
-      specs: ['MgO 16%', 'SO₃ 32%'],
+      image: product2,
+      specs: [' MgO 16%', ' SO₃ 32%'],
       benefits: [
         'Crystal form, fast solubility',
         'Industrial and agricultural use',
         'Water Soluble MgO 16%, Water Soluble SO₃ 32% content',
         'Premium quality standards',
         'High Purity',
-        'TECHNICAL QUALITY',
+        'Technical Quality',
         'Used in industrial plants (sugar beet, corn, sunflower, red beet...)'
       ],
       detailedDescription: `Thanks to its crystal structure, it dissolves rapidly in water and can be easily absorbed by plants.`,
       usage: [
-        'Can Be Applied Foliarly By Dissolving In Water.',
-        'Can Be Used In Drip Irrigation Systems.',
-        'Used As A Magnesium Source In Industrial Processes.',
-        'Can Also Be Used As Animal Feed Additive.'
+        'Can be applied foliarly by dissolving in water',
+        'Can be used in drip irrigation systems',
+        'Used as a magnesium source in industrial processes',
+        'Can also be used as animal feed additive'
       ],
       applicationRates: {
-        foliarSpray: '2-3 kg/1000 liters water',
-        fertigation: '5-10 kg/decare',
+        foliarSpray: '10-15 kg/1000 liters water',
+        fertigation: '10-15 kg/decare',
         industrial: 'According to process requirements'
       },
       certifications: ['GMP+ Certified', 'TSE Certified'],
@@ -376,28 +374,27 @@ const productsDataByLanguage = {
       type: 'Magnesium Sulfate',
       subtitle: 'High Purity Magnesium Sulfate',
       description: 'High purity crystal magnesium sulfate - Industrial and agricultural use',
-      image: seventeen33,
-      specs: ['MgO 17%', 'SO₃ 33%'],
+      image: product5,
+      specs: [' MgO 17%', ' SO₃ 33%'],
       benefits: [
         'Crystal form, fast solubility',
         'Industrial and agricultural use',
         'Water Soluble MgO 17%, Water Soluble SO₃ 33% content',
         'Premium quality standards',
         'High Purity',
-        'TECHNICAL QUALITY',
-        'Used in industrial plants (sugar beet, corn, sunflower, red beet...)',
-        'EC FERTILIZER'
+        'Technical Quality',
+        'Used in industrial plants (sugar beet, corn, sunflower, red beet...)'
       ],
       detailedDescription: `Thanks to its crystal structure, it dissolves rapidly in water and can be easily absorbed by plants.`,
       usage: [
-        'Can Be Applied Foliarly By Dissolving In Water.',
-        'Can Be Used In Drip Irrigation Systems.',
-        'Used As A Magnesium Source In Industrial Processes.',
-        'Can Also Be Used As Animal Feed Additive.'
+        'Can be applied foliarly by dissolving in water',
+        'Can be used in drip irrigation systems',
+        'Used as a magnesium source in industrial processes',
+        'Can also be used as animal feed additive'
       ],
       applicationRates: {
-        foliarSpray: '2-3 kg/1000 liters water',
-        fertigation: '5-10 kg/decare',
+        foliarSpray: '10-15 kg/1000 liters water',
+        fertigation: '10-15 kg/decare',
         industrial: 'According to process requirements'
       },
       certifications: ['GMP+ Certified', 'TSE Certified'],
@@ -409,34 +406,34 @@ const productsDataByLanguage = {
       type: 'Magnesium Sulfate',
       subtitle: 'Granulated Magnesium Sulfate Heptahydrate',
       description: 'Granulated Magnesium Sulfate Heptahydrate',
-      image: granulous17,
-      specs: ['MgO 17%', 'SO₃ 33%'],
+      image: product1,
+      specs: [' MgO 17%', ' SO₃ 33%'],
       benefits: [
         'Water Soluble MgO 17% (Magnesium Oxide)',
         'Water Soluble SO₃ 33% (Sulfur Trioxide)',
-        'EC FERTILIZER',
+        'EC Fertilizer Grade',
         'Slow dissolution in soil – Does not wash away quickly',
         'Easy application with spreaders in open field and fruit farming',
         'Economic and reliable plant nutrient source for magnesium and sulfur needs',
         'Can be mixed and used with compound base fertilizers and NPK',
         'High Purity',
-        'TECHNICAL QUALITY',
+        'Technical Quality',
         'Used in industrial plants (sugar beet, corn, sunflower, red beet...)'
       ],
-      detailedDescription: `Produced at EC FERTILIZER Quality standard, this product dissolves slowly in soil and does not wash away quickly. 
+      detailedDescription: `Produced at EC Fertilizer Quality standard, this product dissolves slowly in soil and does not wash away quickly. 
     Thanks to this feature, it provides long-term effect and minimizes nutrient loss.`,
       usage: [
-        'Ideal For Open Field And Fruit Farming Applications.',
-        'Can Be Easily Applied With SPREADER.',
-        'Can Be Used By Mixing With Compound Base Fertilizers And NPK.',
-        'Preferred Primarily In Areas Where Magnesium Deficiency Is Observed.'
+        'Ideal for open field and fruit farming applications',
+        'Can be easily applied with SPREADER',
+        'Can be used by mixing with compound base fertilizers and NPK',
+        'Preferred primarily in areas where magnesium deficiency is observed'
       ],
       applicationRates: {
-        fieldCrops: '50-100 kg/decare',
-        vegetables: '75-150 kg/decare',
-        fruitTrees: '100-200 kg/decare'
+        fieldCrops: '10-15 kg/decare',
+        vegetables: '10-15 kg/decare',
+        fruitTrees: '10-15 kg/decare'
       },
-      certifications: ['EC FERTILIZER Quality Standard', 'Suitable for Organic Farming'],
+      certifications: ['EC Fertilizer Quality Standard', 'Suitable for Organic Farming'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
       certificateName: 'Agrosol-Max-17-Tescil.pdf'
@@ -447,8 +444,8 @@ const productsDataByLanguage = {
       type: 'Crystal Magnesium Sulfate',
       subtitle: 'Crystal Magnesium Sulfate',
       description: 'Crystal Magnesium Sulfate',
-      image: seventeen33,
-      specs: ['MgO 16%', 'SO₃ 32%'],
+      image: product5,
+      specs: [' MgO 16%', ' SO₃ 32%'],
       benefits: [
         'Water Soluble MgO 16% (Magnesium Oxide)',
         'Water Soluble SO₃ 32% (Sulfur Trioxide)',
@@ -456,23 +453,23 @@ const productsDataByLanguage = {
         'Crystal structure – Fast effect',
         'Can be applied foliarly and to soil',
         'High Purity',
-        'TECHNICAL QUALITY',
+        'Technical Quality',
         'Used in industrial plants (sugar beet, corn, sunflower, red beet...)'
       ],
       detailedDescription: `Thanks to its 100% water-soluble structure, it is ideal for both foliar spraying and soil application.
     Its crystal structure provides fast effect and is easily absorbed by plants.`,
       usage: [
-        'Can Be Applied as Foliar Spray.',
-        'Used In Drip Irrigation Systems.',
-        'Preferred in Fertigation Applications.',
-        'Ideal For Rapid Intervention In Magnesium Deficiency Symptoms.'
+        'Can be applied as foliar spray',
+        'Used in drip irrigation systems',
+        'Preferred in fertigation applications',
+        'Ideal for rapid intervention in magnesium deficiency symptoms'
       ],
       applicationRates: {
-        foliarSpray: '2-3 kg/1000 liters water',
-        fertigation: '5-10 kg/decare',
-        soilApplication: '25-50 kg/decare'
+        foliarSpray: '10-15 kg/1000 liters water',
+        fertigation: '10-15 kg/decare',
+        soilApplication: '10-15 kg/decare'
       },
-      certifications: ['EC FERTILIZER Quality Standard', 'Suitable for Organic Farming'],
+      certifications: ['EC Fertilizer Quality Standard', 'Suitable for Organic Farming'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
       certificateName: 'Agrosol-Max-EC-Tescil.pdf'
@@ -483,31 +480,31 @@ const productsDataByLanguage = {
       type: 'Zinc Fertilizer',
       subtitle: 'Zinc Sulfate Monohydrate',
       description: 'Zinc sulfate monohydrate - Ideal for zinc deficiency',
-      image: zinko,
-      specs: ['Zn 36%'],
+      image: product6,
+      specs: [' Zn 36%'],
       benefits: [
         'Water Soluble Zn 36% (Zinc)',
         'Monohydrate form',
         'Fast acting and high solubility',
         'Crystal structure',
         'High Purity',
-        'TECHNICAL QUALITY',
+        'Technical Quality',
         'Used in industrial plants (sugar beet, corn, sunflower, red beet...)'
       ],
       detailedDescription: `Zinc is a microelement of critical importance for plant growth, enzyme activity and hormone synthesis.
     Zinc deficiency is commonly observed especially in cereals, corn and fruit trees.`,
       usage: [
-        'Used As Base Fertilizer in Soil Application.', 
-        'Provides Rapid Correction With Doliar Spraying.',
-        'Can Be Applied in Drip Irrigation Systems.',
-        'Ideal For Emergency Intervention in Zinc Deficiency Symptoms.'
+        'Used as base fertilizer in soil application',
+        'Provides rapid correction with foliar spraying',
+        'Can be applied in drip irrigation systems',
+        'Ideal for emergency intervention in zinc deficiency symptoms'
       ],
       applicationRates: {
-        soilApplication: '3-5 kg/decare',
-        foliarSpray: '200-300 gr/1000 liters water',
-        fertigation: '2-4 kg/decare'
+        soilApplication: '10-15 kg/decare',
+        foliarSpray: '10-15 kg/1000 liters water',
+        fertigation: '10-15 kg/decare'
       },
-      certifications: ['EC FERTILIZER Quality Standard', 'GMP+ Certified'],
+      certifications: ['EC Fertilizer Quality Standard', 'GMP+ Certified'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
       registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
       certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
@@ -520,8 +517,8 @@ const productsDataByLanguage = {
       type: 'Сульфат магнію',
       subtitle: 'Сульфат магнію збагачений мікроелементами',
       description: 'Сульфат магнію збагачений мікроелементами',
-      image: mix,
-      specs: ['MgO 15%', 'SO₃ 30%', 'Zn 0.7%'],
+      image: product3,
+      specs: [' MgO 15%', ' SO₃ 30%', ' Zn 0.7%'],
       benefits: [
         'Водорозчинний MgO 15% (Оксид магнію)',
         'Водорозчинний SO₃ 30% (Триоксид сірки)',
@@ -542,9 +539,9 @@ const productsDataByLanguage = {
         'Рекомендується для грунтів з високим ризиком дефіциту цинку'
       ],
       applicationRates: {
-        cereals: '50-75 кг/декар',
-        corn: '75-100 кг/декар',
-        vegetables: '100-150 кг/декар'
+        cereals: '10-15 кг/декар',
+        corn: '10-15 кг/декар',
+        vegetables: '10-15 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
@@ -557,8 +554,8 @@ const productsDataByLanguage = {
       type: 'Сульфат магнію',
       subtitle: 'Сульфат магнію, збагачений мікроелементами',
       description: 'Сульфат магнію, збагачений мікроелементами',
-      image: topmix,
-      specs: ['MgO 16%', 'SO₃ 32%', 'Zn 0.2%', 'B 0.1%', 'Mn 0.1%'],
+      image: product4,
+      specs: [' MgO 16%', ' SO₃ 32%', ' Zn 0.2%', ' B 0.1%', ' Mn 0.1%'],
       benefits: [
         'Водорозчинний MgO 16% (Оксид магнію)',
         'Водорозчинний SO₃ 32% (Триоксид сірки)',
@@ -581,9 +578,9 @@ const productsDataByLanguage = {
         'Рекомендується у системах високопродуктивного землеробства'
       ],
       applicationRates: {
-        fruitTrees: '100-150 кг/декар',
-        vegetables: '75-125 кг/декар',
-        greenhouse: '100-200 кг/декар'
+        fruitTrees: '10-15 кг/декар',
+        vegetables: '10-15 кг/декар',
+        greenhouse: '10-15 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'GlobalGAP затверджено'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
@@ -596,8 +593,8 @@ const productsDataByLanguage = {
       type: 'Сульфат магнію',
       subtitle: 'Високочистий сульфат магнію',
       description: 'Високочистий кристалічний сульфат магнію - Промислове та сільськогосподарське використання',
-      image: fullyWater,
-      specs: ['MgO 16%', 'SO₃ 32%'],
+      image: product2,
+      specs: [' MgO 16%', ' SO₃ 32%'],
       benefits: [
         'Кристалічна форма, швидка розчинність',
         'Промислове та сільськогосподарське використання',
@@ -615,8 +612,8 @@ const productsDataByLanguage = {
         'Може також використовуватися як кормова добавка для тварин'
       ],
       applicationRates: {
-        foliarSpray: '2-3 кг/1000 літрів води',
-        fertigation: '5-10 кг/декар',
+        foliarSpray: '10-15 кг/1000 літрів води',
+        fertigation: '10-15 кг/декар',
         industrial: 'Відповідно до вимог процесу'
       },
       certifications: ['Сертифіковано GMP+', 'Сертифіковано TSE'],
@@ -628,8 +625,8 @@ const productsDataByLanguage = {
       type: 'Сульфат магнію',
       subtitle: 'Високочистий сульфат магнію',
       description: 'Високочистий кристалічний сульфат магнію - Промислове та сільськогосподарське використання',
-      image: seventeen33,
-      specs: ['MgO 17%', 'SO₃ 33%'],
+      image: product5,
+      specs: [' MgO 17%', ' SO₃ 33%'],
       benefits: [
         'Кристалічна форма, швидка розчинність',
         'Промислове та сільськогосподарське використання',
@@ -637,8 +634,7 @@ const productsDataByLanguage = {
         'Преміум стандарти якості',
         'Висока чистота',
         'Технічна якість',
-        'Використовується в промислових рослинах (цукровий буряк, кукурудза, соняшник, червоний буряк...)',
-        'ДОБРИВО ЄС'
+        'Використовується в промислових рослинах (цукровий буряк, кукурудза, соняшник, червоний буряк...)'
       ],
       detailedDescription: `Завдяки своїй кристалічній структурі він швидко розчиняється у воді та легко засвоюється рослинами.`,
       usage: [
@@ -648,8 +644,8 @@ const productsDataByLanguage = {
         'Може також використовуватися як кормова добавка для тварин'
       ],
       applicationRates: {
-        foliarSpray: '2-3 кг/1000 літрів води',
-        fertigation: '5-10 кг/декар',
+        foliarSpray: '10-15 кг/1000 літрів води',
+        fertigation: '10-15 кг/декар',
         industrial: 'Відповідно до вимог процесу'
       },
       certifications: ['Сертифіковано GMP+', 'Сертифіковано TSE'],
@@ -661,8 +657,8 @@ const productsDataByLanguage = {
       type: 'Сульфат магнію',
       subtitle: 'Гранульований сульфат магнію гептагідрат',
       description: 'Гранульований сульфат магнію гептагідрат',
-      image: granulous17,
-      specs: ['MgO 17%', 'SO₃ 33%'],
+      image: product1,
+      specs: [' MgO 17%', ' SO₃ 33%'],
       benefits: [
         'Водорозчинний MgO 17% (Оксид магнію)',
         'Водорозчинний SO₃ 33% (Триоксид сірки)',
@@ -684,9 +680,9 @@ const productsDataByLanguage = {
         'Віддається перевага насамперед у районах, де спостерігається дефіцит магнію'
       ],
       applicationRates: {
-        fieldCrops: '50-100 кг/декар',
-        vegetables: '75-150 кг/декар',
-        fruitTrees: '100-200 кг/декар'
+        fieldCrops: '10-15 кг/декар',
+        vegetables: '10-15 кг/декар',
+        fruitTrees: '10-15 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Підходить для органічного землеробства'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
@@ -699,8 +695,8 @@ const productsDataByLanguage = {
       type: 'Кристалічний сульфат магнію',
       subtitle: 'Кристалічний сульфат магнію',
       description: 'Кристалічний сульфат магнію',
-      image: seventeen33,
-      specs: ['MgO 16%', 'SO₃ 32%'],
+      image: product5,
+      specs: [' MgO 16%', ' SO₃ 32%'],
       benefits: [
         'Водорозчинний MgO 16% (Оксид магнію)',
         'Водорозчинний SO₃ 32% (Триоксид сірки)',
@@ -720,9 +716,9 @@ const productsDataByLanguage = {
         'Ідеально підходить для швидкого втручання при симптомах дефіциту магнію'
       ],
       applicationRates: {
-        foliarSpray: '2-3 кг/1000 літрів води',
-        fertigation: '5-10 кг/декар',
-        soilApplication: '25-50 кг/декар'
+        foliarSpray: '10-15 кг/1000 літрів води',
+        fertigation: '10-15 кг/декар',
+        soilApplication: '10-15 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Підходить для органічного землеробства'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
@@ -735,8 +731,8 @@ const productsDataByLanguage = {
       type: 'Цинкове добриво',
       subtitle: 'Сульфат цинку моногідрат',
       description: 'Сульфат цинку моногідрат - Ідеально для дефіциту цинку',
-      image: zinko,
-      specs: ['Zn 36%'],
+      image: product6,
+      specs: [' Zn 36%'],
       benefits: [
         'Водорозчинний Zn 36% (Цинк)',
         'Моногідратна форма',
@@ -755,9 +751,9 @@ const productsDataByLanguage = {
         'Ідеально для екстреного втручання при симптомах дефіциту цинку'
       ],
       applicationRates: {
-        soilApplication: '3-5 кг/декар',
-        foliarSpray: '200-300 гр/1000 літрів води',
-        fertigation: '2-4 кг/декар'
+        soilApplication: '10-15 кг/декар',
+        foliarSpray: '10-15 кг/1000 літрів води',
+        fertigation: '10-15 кг/декар'
       },
       certifications: ['Стандарт якості добрив ЄС', 'Сертифіковано GMP+'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],

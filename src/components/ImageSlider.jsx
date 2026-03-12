@@ -1,30 +1,22 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import misir1 from '../assets/misir.jpeg';
-import misir2 from '../assets/misir2.jpeg';
-import pancar1 from '../assets/pancar.jpeg';
-import pancar2 from '../assets/pancar2.jpeg';
-import image1 from '../assets/1.jpeg';
-import image2 from '../assets/2.jpeg';
-import image3 from '../assets/3.jpeg';
-import image4 from '../assets/4.jpeg';
-import image6 from '../assets/6.jpeg';
-import image7 from '../assets/7.jpeg';
+import misir1 from '../assets/misir.webp';
+import misir2 from '../assets/misir2.webp';
+import pancar1 from '../assets/pancar.webp';
+import tarladeneme from '../assets/tarladeneme.webp';
+import pancar2 from '../assets/pancar2.webp';
+import image1 from '../assets/1.webp';
+import image2 from '../assets/2.webp';
+import image3 from '../assets/3.webp';
+import image4 from '../assets/4.webp';
+import image6 from '../assets/6.webp';
+import image7 from '../assets/7.webp';
 
 const ImageSlider = ({ translations }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(1);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const [isMobile, setIsMobile] = useState(typeof window !== 'undefined' ? window.innerWidth < 768 : false);
 
   const slides = [
-    // Make image3.jpeg the first slide for mobile-first ordering (per request)
-    {
-      id: 2,
-      image: image3,
-      singleImage: true,
-      title: translations?.slider?.slide2Title || 'Modern Tarım',
-      description: translations?.slider?.slide2Desc || 'Teknoloji ile donatılmış tarım alanları'
-    },
     {
       id: 1,
       image1: misir1,
@@ -32,6 +24,13 @@ const ImageSlider = ({ translations }) => {
       image2Position: 'top',
       title: translations?.slider?.slide1Title || 'Mısır Tarlaları',
       description: translations?.slider?.slide1Desc || 'Verimli mısır üretimi için özel çözümler'
+    },
+    {
+      id: 2,
+      image: image3,
+      singleImage: true,
+      title: translations?.slider?.slide2Title || 'Modern Tarım',
+      description: translations?.slider?.slide2Desc || 'Teknoloji ile donatılmış tarım alanları'
     },
     {
       id: 3,
@@ -56,7 +55,7 @@ const ImageSlider = ({ translations }) => {
     },
     {
       id: 6,
-      image1: pancar1,
+      image1: tarladeneme,
       image2: image6,
       title: translations?.slider?.slide6Title || 'Profesyonel Ürünler',
       description: translations?.slider?.slide6Desc || 'Tarımsal başarı için güçlü ortaklık'
@@ -64,48 +63,23 @@ const ImageSlider = ({ translations }) => {
   ];
 
   // Otomatik geçiş
-  // responsive: detect mobile and rebuild slides list for mobile (flatten double images)
-  useEffect(() => {
-    const onResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener('resize', onResize);
-    return () => window.removeEventListener('resize', onResize);
-  }, []);
-
-  const mobileSlides = useMemo(() => {
-    // flatten slides: double-image slides -> two entries, singleImage -> one entry
-    return slides.flatMap((s) => {
-      if (s.singleImage) {
-        return [{ id: `${s.id}`, image: s.image, title: s.title, description: s.description }];
-      }
-      if (s.image1 && s.image2) {
-        return [
-          { id: `${s.id}-1`, image: s.image1, title: s.title, description: s.description },
-          { id: `${s.id}-2`, image: s.image2, title: s.title, description: s.description }
-        ];
-      }
-      // fallback: if slide has image property
-      return [{ id: `${s.id}`, image: s.image || s.image1, title: s.title, description: s.description }];
-    });
-  }, [slides]);
-
-  // On mobile show all flattened slides (no limit)
-  const slidesToShow = useMemo(() => (isMobile ? mobileSlides : slides), [isMobile, mobileSlides, slides]);
-
   useEffect(() => {
     if (!isAutoPlaying) return;
+
     const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % slidesToShow.length);
-    }, 5000);
+      setCurrentIndex((prev) => (prev + 1) % slides.length);
+    }, 5000); // 5 saniyede bir değişir
+
     return () => clearInterval(interval);
-  }, [isAutoPlaying, slidesToShow.length]);
+  }, [isAutoPlaying, slides.length]);
 
   const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % slidesToShow.length);
+    setCurrentIndex((prev) => (prev + 1) % slides.length);
     setIsAutoPlaying(false);
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + slidesToShow.length) % slidesToShow.length);
+    setCurrentIndex((prev) => (prev - 1 + slides.length) % slides.length);
     setIsAutoPlaying(false);
   };
 
@@ -118,38 +92,49 @@ const ImageSlider = ({ translations }) => {
     <section className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden bg-gray-900">
       {/* Slides */}
       <div className="relative w-full h-full">
-        {slidesToShow.map((slide, index) => (
+        {slides.map((slide, index) => (
           <div
-            key={slide.id ?? index}
+            key={slide.id}
             className={`absolute inset-0 transition-all duration-700 ease-in-out ${
-              index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
+              index === currentIndex
+                ? 'opacity-100 scale-100'
+                : 'opacity-0 scale-105'
             }`}
           >
-            {isMobile ? (
-              // Mobile: each slideToShow entry has .image
+            {slide.singleImage ? (
+              /* Tek Resim */
               <div className="w-full h-full">
-                <img src={slide.image} alt={slide.title || slide.id} className="w-full h-full object-cover" />
+                <img
+                  src={slide.image}
+                  alt={slide.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
             ) : (
-              // Desktop: preserve original layout (singleImage or two-image)
-              slide.singleImage ? (
-                <div className="w-full h-full">
-                  <img src={slide.image} alt={slide.title} className="w-full h-full object-cover" />
+              /* İki Resim - Desktop yan yana, Mobil alt alta */
+              <div className="flex flex-col md:flex-row w-full h-full">
+                <div className="w-full md:w-1/2 h-1/2 md:h-full relative">
+                  <img
+                    src={slide.image1}
+                    alt={`${slide.title} - 1`}
+                    className="w-full h-full object-cover"
+                  />
+                  {/* Gölge - sağda (desktop) ve altta (mobil) */}
+                  <div className="absolute inset-0 shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
+                  <div className="absolute inset-0 shadow-[inset_0_-20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
                 </div>
-              ) : (
-                <div className="flex flex-col md:flex-row w-full h-full">
-                  <div className="w-full md:w-1/2 h-1/2 md:h-full relative">
-                    <img src={slide.image1} alt={`${slide.title} - 1`} className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
-                    <div className="absolute inset-0 shadow-[inset_0_-20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
-                  </div>
-                  <div className="w-full md:w-1/2 h-1/2 md:h-full bg-gray-800 flex items-center justify-center relative">
-                    <img src={slide.image2} alt={`${slide.title} - 2`} className="w-full h-full object-cover" style={slide.image2Position ? { objectPosition: slide.image2Position } : {}} />
-                    <div className="absolute inset-0 shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
-                    <div className="absolute inset-0 shadow-[inset_0_20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
-                  </div>
+                <div className="w-full md:w-1/2 h-1/2 md:h-full bg-gray-800 flex items-center justify-center relative">
+                  <img
+                    src={slide.image2}
+                    alt={`${slide.title} - 2`}
+                    className="w-full h-full object-cover"
+                    style={slide.image2Position ? { objectPosition: slide.image2Position } : {}}
+                  />
+                  {/* Gölge - solda (desktop) ve üstte (mobil) */}
+                  <div className="absolute inset-0 shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>
+                  <div className="absolute inset-0 shadow-[inset_0_20px_30px_-10px_rgba(0,0,0,0.5)] md:shadow-none"></div>
                 </div>
-              )
+              </div>
             )}
             
             {/* Overlay */}
@@ -177,7 +162,7 @@ const ImageSlider = ({ translations }) => {
 
       {/* Indicators */}
       <div className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 md:gap-3">
-        {slidesToShow.map((_, index) => (
+        {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
