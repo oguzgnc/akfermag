@@ -9,13 +9,24 @@ export const translations = {
     hero: {
       title: "Agrosol*Max® Granulous",
       subtitle: "Granüllenmiş Magnezyum Sülfat Heptahidrat",
-      benefit1: "Tohum Serpme Makineleri İçin İdealdir",
-      benefit2: "Zaman, İşgücü ve Yakıttan Tasarruf",
-      benefit3: "Suda Tamamen Çözünür",
-      benefit4: "Ağır Metal ve Klor İçermez",
+      benefit1: "Tohum serpme makineleri için idealdir",
+      benefit2: "Zaman, işgücü ve yakıttan tasarruf",
+      benefit3: "Suda tamamen çözünür",
+      benefit4: "Ağır metal ve klor içermez",
       cta: "Detaylı Bilgi"
     },
     heroProducts: [
+      {
+        id: 'agrosol-max-mix',
+        name: 'Agrosol*Max® Mix',
+        subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
+        benefits: [
+          'MgO %15 (Magnezyum Oksit)',
+          'SO₃ %30 (Kükürt Trioksit)',
+          'Zn %0.7 (Çinko)',
+          'EC Gübre Kalite'
+        ]
+      },
       {
         id: 'agrosol-max-topmix',
         name: 'Agrosol*Max® TopMix',
@@ -32,22 +43,10 @@ export const translations = {
         name: 'Agrosol*Max®',
         subtitle: 'Yüksek Saflıkta Magnezyum Sülfat',
         benefits: [
-          'Kristal Form, Hızlı Çözünürlük',
-          'Endüstriyel Ve Tarımsal Kullanım',
+          'Kristal form, hızlı çözünürlük',
+          'Endüstriyel ve tarımsal kullanım',
           'MgO %16, SO₃ %32 içerik',
-          'Premium Kalite Standartları'
-        ]
-      },
-
-      {
-        id: 'agrosol-max-mix',
-        name: 'Agrosol*Max® Mix',
-        subtitle: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
-        benefits: [
-          'MgO %15 (Magnezyum Oksit)',
-          'SO₃ %30 (Kükürt Trioksit)',
-          'Zn %0.7 (Çinko)',
-          'EC Gübre Kalite'
+          'Premium kalite standartları'
         ]
       },
       {
@@ -58,7 +57,7 @@ export const translations = {
           'MgO %17 (Magnezyum)',
           'SO₃ %33 (Kükürt)',
           'EC Gübre Kalite',
-          'FIRFIR İle Kolay Uygulama'
+          'FIRFIR ile kolay uygulama'
         ]
       },
       {
@@ -68,12 +67,10 @@ export const translations = {
         benefits: [
           'MgO %17 (Magnezyum)',
           'SO₃ %33 (Kükürt)',
-          'Kristal Form, Hızlı Çözünürlük',
+          'Kristal form, hızlı çözünürlük',
           'Teknik Kalite'
         ]
       },
-      
-      
       {
         id: 'agrosol-max',
         name: 'Agrosol*Max®',
@@ -82,7 +79,7 @@ export const translations = {
           'MgO %16 (Magnezyum)',
           'SO₃ %32 (Kükürt)',
           'Suda %100 çözünür',
-          'Yapraktan Uygulanabilir'
+          'Yapraktan uygulanabilir'
         ]
       },
       {
@@ -90,10 +87,10 @@ export const translations = {
         name: 'Agrosol*Max® Çinko Tuzu',
         subtitle: 'Çinko Sülfat Monohidrat',
         benefits: [
-          'Çinko Eksikliği İçin İdeal',
-          'Zn %21 İçerik',
-          'Kristal Form, Hızlı Etki',
-          'Monohidrat Formül'
+          'Çinko eksikliği için ideal',
+          'Zn %21 içerik',
+          'Kristal form, hızlı etki',
+          'Monohidrat formül'
         ]
       }
     ],
@@ -102,13 +99,13 @@ export const translations = {
       title: "AKFERMAG KİMYA",
       subtitle: "Gübre ve Kimya Sektöründe Güvenilir Ortağınız",
       highlight1Title: "2001'den Beri",
-      highlight1Desc: "Tarım ve Endüstri İçin Magnezyum Sülfat Tedariki",
+      highlight1Desc: "Tarım ve endüstri için magnezyum sülfat tedariki",
       highlight2Title: "AN GRANULOUS",
-      highlight2Desc: "Yeni Granül Magnezyum Heptahidrat Formumuz",
+      highlight2Desc: "Yeni granül magnezyum heptahidrat formumuz",
       highlight3Title: "Zengin İçerik",
-      highlight3Desc: "Çinko, Manganez, Bor İçeren Ürünler",
+      highlight3Desc: "Çinko, manganez, bor içeren ürünler",
       highlight4Title: "Dünya Lideri",
-      highlight4Desc: "Dünyanın En Etkili Tedarikçilerinden Birisi",
+      highlight4Desc: "Dünyanın en etkili tedarikçilerinden biri",
       foundingYear: "2001",
       foundingText: "Akfermag şirketi 2001 yılında tarım ve endüstri sektörlerinin ticari ihtiyaçlarını binlerce yıldır gübre yoluyla magnezyum sülfat heptahidrat ve türevleri ile daha etkili bir şekilde karşılamak için kurulmuştur.",
       facilityTitle: "Modern Üretim Tesisimiz",
@@ -118,11 +115,11 @@ export const translations = {
       worldLeaderText: "Akfermag, dünyanın en etkili tedarikçilerinden biridir.",
       policyTitle: "Akfermag Politikası",
       policyIntro: "Biz, Akfermag şirketi, herkesin aşağıda belirtilen kurallara uyması için her türlü çabayı gösteriyoruz:",
-      policy1: "Müşteri Odaklı Bir Şirket Olmak",
-      policy2: "Kaliteden Ödün Vermeden Şirket Olmak",
-      policy3: "Yeni Profesyonel Fırsatlar Yaratmak",
-      policy4: "Yüksek Ahlaki Değerler",
-      policy5: "Doğaya ve Yaşama Karşı Sorumlu Olmak",
+      policy1: "Müşteri odaklı bir şirket olmak",
+      policy2: "Kaliteden ödün vermeden şirket olmak",
+      policy3: "Yeni profesyonel fırsatlar yaratmak",
+      policy4: "Yüksek ahlaki değerler",
+      policy5: "Doğaya ve yaşama karşı sorumlu olmak",
       companyText: "40 yılı aşkın deneyimimizle gübre ve kimya sektöründe öncü bir konumdayız. ISO 9001:2015 kalite yönetim sistemi sertifikasına sahip üretim tesisimizde, en yüksek standartlarda ürünler üretiyoruz.",
       yearsExp: "Yıllık Tecrübe",
       exportCountries: "İhracat Ülkesi",
@@ -149,20 +146,13 @@ export const translations = {
           name: 'Agrosol*Max®-17',
           type: 'Magnezyum Sülfat',
           description: 'Granüllenmiş Magnezyum Sülfat Heptahidrat',
-          specs: ['MgO %17', 'SO₃ %33', 'EC Fertilizer', 'FIRFIR ile atılır']
-        },
-        {
-          id: 'agrosol-max-17-33',
-          name: 'Agrosol*Max® 17-33',
-          type: 'Magnezyum Sülfat',
-          description: 'Yüksek Saflıkta Magnezyum Sülfat',
-          specs: ['MgO %17', 'SO₃ %33', 'Kristal Form', 'Teknik Kalite']
+          specs: ['MgO %17', 'SO₃ %33', 'EC Gübre', 'FIRFIR ile atılır']
         },
         {
           id: 'agrosol-max-fully',
           name: 'Agrosol*Max®',
           type: 'Magnezyum Sülfat',
-          description: 'Yüksek Saflıkta Kristal Magnezyum Sülfat',
+          description: 'Yüksek saflıkta kristal magnezyum sülfat',
           specs: ['MgO %16', 'SO₃ %32', 'Kristal Form', 'Yüksek Saflık']
         },
         {
@@ -170,7 +160,7 @@ export const translations = {
           name: 'Agrosol*Max® Mix',
           type: 'Mikro Element Zenginleştirilmiş',
           description: 'Mikro Element Zenginleştirilmiş Magnezyum Sülfat',
-          specs: ['MgO %15', 'SO₃ %30', 'Zn %0.7', 'EC Fertilizer']
+          specs: ['MgO %15', 'SO₃ %30', 'Zn %0.7', 'EC Gübre']
         },
         {
           id: 'agrosol-max-topmix',
@@ -184,13 +174,13 @@ export const translations = {
           name: 'Agrosol*Max®',
           type: 'Kristal Magnezyum Sülfat',
           description: 'Kristal Magnezyum Sülfat',
-          specs: ['MgO %16', 'SO₃ %32', '%100 Çözünür', 'Yapraktan Uygulanır']
+          specs: ['MgO %16', 'SO₃ %32', '%100 çözünür', 'Yapraktan uygulanır']
         },
         {
           id: 'agrosol-max-zinko',
           name: 'Agrosol*Max® Çinko Tuzu',
           type: 'Çinko Gübresi',
-          description: 'Çinko Sülfat Monohidrat',
+          description: 'Çinko sülfat monohidrat',
           specs: ['Zn %21', 'Monohidrat', 'Hızlı Etki', 'Kristal Form']
         }
       ]
@@ -200,28 +190,28 @@ export const translations = {
       products: "Ürünler",
       contact: "İletişim",
       newsletter: "E-Bülten",
-      newsletterDesc: "Ürün ve Kampanyalardan Haberdar Olun",
-      newsletterPlaceholder: "E-posta Adresiniz",
+      newsletterDesc: "Ürün ve kampanyalardan haberdar olun",
+      newsletterPlaceholder: "E-posta adresiniz",
       subscribe: "Abone Ol",
-      newsletterSuccess: "Başarıyla Abone Oldunuz",
-      rights: "Tüm Hakları Saklıdır.",
+      newsletterSuccess: "Başarıyla abone oldunuz",
+      rights: "Tüm hakları saklıdır.",
       istanbul: "İstanbul İrtibat",
       kutahya: "Kütahya Fabrika",
-      companyDescription: "Gübre ve Kimya Sektöründe 40 Yılı Aşkın Deneyimimizle Güvenilir Çözüm Ortağınız."
+      companyDescription: "Gübre ve kimya sektöründe 40 yılı aşkın deneyimimizle güvenilir çözüm ortağınız."
     },
     slider: {
       slide1Title: "Mısır Tarlaları",
-      slide1Desc: "Verimli Mısır Üretimi İçin Özel Çözümler",
+      slide1Desc: "Verimli mısır üretimi için özel çözümler",
       slide2Title: "Şeker Pancarı",
-      slide2Desc: "Kaliteli Şeker Pancarı Üretimi",
+      slide2Desc: "Kaliteli şeker pancarı üretimi",
       slide3Title: "Granül Gübreler",
-      slide3Desc: "Yüksek Kaliteli Granül Gübre Çözümleri",
+      slide3Desc: "Yüksek kaliteli granül gübre çözümleri",
       slide4Title: "Modern Tarım",
-      slide4Desc: "Teknoloji ile Donatılmış Tarım Alanları",
+      slide4Desc: "Teknoloji ile donatılmış tarım alanları",
       slide5Title: "Verimli Topraklar",
-      slide5Desc: "Sağlıklı Toprak, Kaliteli Ürün",
+      slide5Desc: "Sağlıklı toprak, kaliteli ürün",
       slide6Title: "Profesyonel Ürünler",
-      slide6Desc: "Tarımsal Başarı İçin Güçlü Ortaklık"
+      slide6Desc: "Tarımsal başarı için güçlü ortaklık"
     },
     productDetail: {
       backButton: "Ana Sayfaya Dön",
@@ -259,7 +249,7 @@ export const translations = {
     },
     contact: {
       title: "İletişim",
-      subtitle: "Ürünlerimiz ve Hizmetlerimiz Hakkında Detaylı Bilgi Almak İçin Bizimle İletişime Geçin.",
+      subtitle: "Ürünlerimiz ve hizmetlerimiz hakkında detaylı bilgi almak için bizimle iletişime geçin.",
       phone: "Telefon",
       email: "E-posta",
       address: "Adres",
@@ -274,9 +264,9 @@ export const translations = {
       phoneLabel: "Telefon Numaranız",
       phonePlaceholder: "+90 (5XX) XXX XX XX",
       messageLabel: "Mesajınız *",
-      messagePlaceholder: "Mesajınızı Buraya Yazın...",
+      messagePlaceholder: "Mesajınızı buraya yazın...",
       sendButton: "Mesaj Gönder",
-      successMessage: "Mesajınız Gönderildi! En Kısa Sürede Size Dönüş Yapacağız."
+      successMessage: "Mesajınız gönderildi! En kısa sürede size dönüş yapacağız."
     }
   },
   EN: {
@@ -300,22 +290,22 @@ export const translations = {
         id: 'agrosol-max-mix',
         name: 'Agrosol*Max® Mix',
         subtitle: 'Micro Element Enriched Magnesium Sulfate',
-      benefits: [
-        'MgO 15% (Magnesium Oxide)',
-        'SO₃ 30% (Sulfur Trioxide)',
-        'Zn 0.7% (Zinc)',
-        'EC FERTILIZER'
-      ]
+        benefits: [
+          'MgO 15% (Magnesium Oxide)',
+          'SO₃ 30% (Sulfur Trioxide)',
+          'Zn 0.7% (Zinc)',
+          'EC Fertilizer Grade'
+        ]
       },
       {
         id: 'agrosol-max-topmix',
         name: 'Agrosol*Max® TopMix',
         subtitle: 'Micro Element Enriched Magnesium Sulfate',
         benefits: [
-        'MgO 16% (Magnesium Oxide)',
+          'MgO 16% (Magnesium Oxide)',
           'SO₃ 32% (Sulfur Trioxide)',
           'Contains Zinc + Boron + Manganese',
-          'EC FERTILIZER'
+          'EC Fertilizer Grade'
         ]
       },
       {
@@ -323,10 +313,10 @@ export const translations = {
         name: 'Agrosol*Max®',
         subtitle: 'High Purity Magnesium Sulfate',
         benefits: [
-          'Crystal Form, Fast Solubility',
-          'Industrial and Agricultural Use',
-          'MgO 16%, SO₃ 32% Content',
-          'Premium Quality Standards'
+          'Crystal form, fast solubility',
+          'Industrial and agricultural use',
+          'MgO 16%, SO₃ 32% content',
+          'Premium quality standards'
         ]
       },
       {
@@ -336,8 +326,8 @@ export const translations = {
         benefits: [
           'MgO 17% (Magnesium)',
           'SO₃ 33% (Sulfur)',
-          'EC FERTILIZER',
-          'Easy Application With SPREADER'
+          'EC Fertilizer Grade',
+          'Easy application with spreader'
         ]
       },
       {
@@ -347,8 +337,8 @@ export const translations = {
         benefits: [
           'MgO 17% (Magnesium)',
           'SO₃ 33% (Sulfur)',
-          'Crystal Form, Fast Solubility',
-          'TECHNICAL GRADE'
+          'Crystal form, fast solubility',
+          'Technical Grade'
         ]
       },
       {
@@ -358,8 +348,8 @@ export const translations = {
         benefits: [
           'MgO 16% (Magnesium)',
           'SO₃ 32% (Sulfur)',
-          '100% Water Soluble',
-          'Foliar Application'
+          '100% water soluble',
+          'Foliar application'
         ]
       },
       {
@@ -367,10 +357,10 @@ export const translations = {
         name: 'Agrosol*Max® Zinc Salt',
         subtitle: 'Zinc Sulfate Monohydrate',
         benefits: [
-          'Ideal for Zinc Deficiency',
-          'Zn 36% Content',
-          'Crystal Form, Fast Acting',
-          'Monohydrate Formula'
+          'Ideal for zinc deficiency',
+          'Zn 36% content',
+          'Crystal form, fast acting',
+          'Monohydrate formula'
         ]
       }
     ],
@@ -379,13 +369,13 @@ export const translations = {
       title: "AKFERMAG CHEMISTRY",
       subtitle: "Your Reliable Partner in Fertilizer and Chemical Sector",
       highlight1Title: "Since 2001",
-      highlight1Desc: "Magnesium Sulfate Supply for Agriculture and Industry",
+      highlight1Desc: "Magnesium sulfate supply for agriculture and industry",
       highlight2Title: "AN GRANULOUS",
-      highlight2Desc: "Our New Granular Magnesium Heptahydrate Form",
+      highlight2Desc: "Our new granular magnesium heptahydrate form",
       highlight3Title: "Rich Content",
-      highlight3Desc: "Products Containing Zinc, Manganese, Boron",
+      highlight3Desc: "Products containing zinc, manganese, boron",
       highlight4Title: "World Leader",
-      highlight4Desc: "One of the World's Most Effective Suppliers",
+      highlight4Desc: "One of the world's most effective suppliers",
       foundingYear: "2001",
       foundingText: "Akfermag company was founded in 2001 to more effectively meet the commercial needs of agriculture and industry sectors through magnesium sulfate heptahydrate and its derivatives via fertilizer for thousands of years.",
       facilityTitle: "Our Modern Production Facility",
@@ -395,11 +385,11 @@ export const translations = {
       worldLeaderText: "Akfermag is one of the most effective suppliers in the world.",
       policyTitle: "Akfermag Policy",
       policyIntro: "We, Akfermag company, make every effort to ensure that everyone complies with the following rules:",
-      policy1: "Be a Customer-Oriented Company",
+      policy1: "Be a customer-oriented company",
       policy2: "Be a company without compromising quality",
-        policy3: "Create New Professional Opportunities",
-      policy4: "High Moral Values",
-      policy5: "Be Responsible to Nature and Life",
+      policy3: "Create new professional opportunities",
+      policy4: "High moral values",
+      policy5: "Be responsible to nature and life",
       companyText: "With over 40 years of experience, we are a leading company in the fertilizer and chemical sector. We produce products at the highest standards in our production facility with ISO 9001:2015 quality management system certification.",
       yearsExp: "Years of Experience",
       exportCountries: "Export Countries",
@@ -426,13 +416,13 @@ export const translations = {
           name: 'Agrosol*Max®-17',
           type: 'Magnesium Sulfate',
           description: 'Granulated Magnesium Sulfate Heptahydrate',
-          specs: ['MgO 17%', 'SO₃ 33%', 'EC FERTILIZER', 'SPREADER APPLICATION']
+          specs: ['MgO 17%', 'SO₃ 33%', 'EC Fertilizer', 'Spreader application']
         },
         {
           id: 'agrosol-max-fully',
           name: 'Agrosol*Max®',
           type: 'Magnesium Sulfate',
-          description: 'High Purity Crystal Magnesium Sulfate',
+          description: 'High purity crystal magnesium sulfate',
           specs: ['MgO 16%', 'SO₃ 32%', 'Crystal Form', 'High Purity']
         },
         {
@@ -440,7 +430,7 @@ export const translations = {
           name: 'Agrosol*Max® Mix',
           type: 'Micro Element Enriched',
           description: 'Micro Element Enriched Magnesium Sulfate',
-          specs: ['MgO 15%', 'SO₃ 30%', 'Zn 0.7%', 'EC FERTILIZER']
+          specs: ['MgO 15%', 'SO₃ 30%', 'Zn 0.7%', 'EC Fertilizer']
         },
         {
           id: 'agrosol-max-topmix',
@@ -454,13 +444,13 @@ export const translations = {
           name: 'Agrosol*Max®',
           type: 'Crystal Magnesium Sulfate',
           description: 'Crystal Magnesium Sulfate',
-          specs: ['MgO 16%', 'SO₃ 32%', '100% Water Soluble', 'Foliar Application']
+          specs: ['MgO 16%', 'SO₃ 32%', '100% soluble', 'Foliar application']
         },
         {
           id: 'agrosol-max-zinko',
           name: 'Agrosol*Max® Zinc Salt',
           type: 'Zinc Fertilizer',
-          description: 'Zinc Sulfate Monohydrate',
+          description: 'Zinc sulfate monohydrate',
           specs: ['Zn 36%', 'Monohydrate', 'Fast Acting', 'Crystal Form']
         }
       ]
@@ -470,28 +460,28 @@ export const translations = {
       products: "Products",
       contact: "Contact",
       newsletter: "Newsletter",
-      newsletterDesc: "Stay İnformed About Products and Campaigns",
-      newsletterPlaceholder: "Your Email Address",
+      newsletterDesc: "Stay informed about products and campaigns",
+      newsletterPlaceholder: "Your email address",
       subscribe: "Subscribe",
-      newsletterSuccess: "Successfully Subscribed",
-      rights: "All Rights Reserved.",
+      newsletterSuccess: "Successfully subscribed",
+      rights: "All rights reserved.",
       istanbul: "Istanbul Office",
       kutahya: "Kutahya Factory",
       companyDescription: "Your trusted solution partner in the fertilizer and chemical industry with over 40 years of experience."
     },
     slider: {
       slide1Title: "Corn Fields",
-      slide1Desc: "Special Solutions for Efficient Corn Production",
+      slide1Desc: "Special solutions for efficient corn production",
       slide2Title: "Sugar Beet",
-      slide2Desc: "Quality Sugar Beet Production",
+      slide2Desc: "Quality sugar beet production",
       slide3Title: "Granular Fertilizers",
-      slide3Desc: "High Quality Granular Fertilizer Solutions",
+      slide3Desc: "High quality granular fertilizer solutions",
       slide4Title: "Modern Agriculture",
-      slide4Desc: "Technology-Equipped Agricultural Areas",
+      slide4Desc: "Technology-equipped agricultural areas",
       slide5Title: "Fertile Lands",
-      slide5Desc: "Healthy Soil, Quality Products",
+      slide5Desc: "Healthy soil, quality products",
       slide6Title: "Professional Products",
-      slide6Desc: "Strong Partnership for Agricultural Success"
+      slide6Desc: "Strong partnership for agricultural success"
     },
     contact: {
       title: "Contact",
@@ -571,10 +561,10 @@ export const translations = {
         name: 'Agrosol*Max® Mix',
         subtitle: 'Сульфат магнію збагачений мікроелементами',
         benefits: [
-        'MgO 15% (Оксид магнію)',
-        'SO₃ 30% (Триоксид сірки)',
-        'Zn 0.7% (Цинк)',
-        'ЄС ДОБРИВО'
+          'MgO 15% (Оксид магнію)',
+          'SO₃ 30% (Триоксид сірки)',
+          'Zn 0.7% (Цинк)',
+          'ЄС добриво'
         ]
       },
       {
@@ -582,10 +572,10 @@ export const translations = {
         name: 'Agrosol*Max® TopMix',
         subtitle: 'Сульфат магнію збагачений мікроелементами',
         benefits: [
-        'MgO 16% (Оксид магнію)',
-        'SO₃ 32% (Триоксид сірки)',
-        'Містить цинк + бор + марганець',
-        'ЄС ДОБРИВО'
+          'MgO 16% (Оксид магнію)',
+          'SO₃ 32% (Триоксид сірки)',
+          'Містить цинк + бор + марганець',
+          'ЄС добриво'
         ]
       },
       {
@@ -618,7 +608,7 @@ export const translations = {
           'MgO 17% (Магній)',
           'SO₃ 33% (Сірка)',
           'Кристалічна форма, швидка розчинність',
-          'ТЕХНІЧНА ЯКІСТЬ'
+          'Технічна якість'
         ]
       },
       {
@@ -696,7 +686,7 @@ export const translations = {
           name: 'Agrosol*Max®-17',
           type: 'Сульфат магнію',
           description: 'Гранульований сульфат магнію гептагідрат',
-          specs: ['MgO 17%', 'SO₃ 33%', 'ЄС ДОБРИВО', 'Застосування розкидачем']
+          specs: ['MgO 17%', 'SO₃ 33%', 'ЄС добриво', 'Застосування розкидачем']
         },
         {
           id: 'agrosol-max-fully',
@@ -710,7 +700,7 @@ export const translations = {
           name: 'Agrosol*Max® Mix',
           type: 'Збагачений мікроелементами',
           description: 'Сульфат магнію збагачений мікроелементами',
-          specs: ['MgO 15%', 'SO₃ 30%', 'Zn 0.7%', 'ЄС ДОБРИВО']
+          specs: ['MgO 15%', 'SO₃ 30%', 'Zn 0.7%', 'ЄС добриво']
         },
         {
           id: 'agrosol-max-topmix',

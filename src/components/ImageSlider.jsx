@@ -11,6 +11,10 @@ import image3 from '../assets/3.webp';
 import image4 from '../assets/4.webp';
 import image6 from '../assets/6.webp';
 import image7 from '../assets/7.webp';
+import granulFNZvuk0 from '../assets/granul-fNZvuk0_.webp';
+import granullBnGw9vV7 from '../assets/granull-BnGw9vV7.webp';
+import kristalJHbopA8m from '../assets/kristal-jHbopA8m.jpg';
+import manyezitgorselC4iJGDzC from '../assets/manyezitgorsel-C4iJGDzC.webp';
 
 const ImageSlider = ({ translations }) => {
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -59,6 +63,20 @@ const ImageSlider = ({ translations }) => {
       image2: image6,
       title: translations?.slider?.slide6Title || 'Profesyonel Ürünler',
       description: translations?.slider?.slide6Desc || 'Tarımsal başarı için güçlü ortaklık'
+    },
+    {
+      id: 7,
+      image1: granulFNZvuk0,
+      image2: granullBnGw9vV7,
+      title: translations?.slider?.slide7Title || 'Granül Gübre Çeşitleri',
+      description: translations?.slider?.slide7Desc || 'Yeni nesil granül gübrelerimizle tanışın'
+    },
+    {
+      id: 8,
+      image1: kristalJHbopA8m,
+      image2: manyezitgorselC4iJGDzC,
+      title: translations?.slider?.slide8Title || 'Kristal ve Manyezit',
+      description: translations?.slider?.slide8Desc || 'Kristal ve manyezit gübre çözümleri'
     }
   ];
 
