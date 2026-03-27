@@ -1,28 +1,62 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import misir1 from '../assets/misir.webp';
-import misir2 from '../assets/misir2.webp';
-import pancar1 from '../assets/pancar.webp';
-import tarladeneme from '../assets/tarladeneme.webp';
-import pancar2 from '../assets/pancar2.webp';
-import image1 from '../assets/1.webp';
-import image2 from '../assets/2.webp';
-import image3 from '../assets/3.webp';
-import image4 from '../assets/4.webp';
-import image6 from '../assets/6.webp';
-import image7 from '../assets/7.webp';
-import granulFNZvuk0 from '../assets/granul-fNZvuk0_.webp';
-import granullBnGw9vV7 from '../assets/granull-BnGw9vV7.webp';
-import kristalJHbopA8m from '../assets/kristal-jHbopA8m.jpg';
-import manyezitgorselC4iJGDzC from '../assets/manyezitgorsel-C4iJGDzC.webp';
+import misir1 from '../../assets/images/misir.webp';
+import misir2 from '../../assets/images/misir2.webp';
+import pancar1 from '../../assets/images/pancar.webp';
+import tarladeneme from '../../assets/images/tarladeneme.webp';
+import pancar2 from '../../assets/images/pancar2.webp';
+import image1 from '../../assets/images/1.webp';
+import image2 from '../../assets/images/2.webp';
+import image3 from '../../assets/images/3.webp';
+import image4 from '../../assets/images/4.webp';
+import image5 from '../../assets/images/5.webp';
+import image6 from '../../assets/images/6.webp';
+import image7 from '../../assets/images/7.webp';
+import granulFNZvuk0 from '../../assets/images/granul-fNZvuk0_.webp';
+import granullBnGw9vV7 from '../../assets/images/granull-BnGw9vV7.webp';
+import kristalJHbopA8m from '../../assets/images/kristal-jHbopA8m.jpg';
+import manyezitgorselC4iJGDzC from '../../assets/images/manyezitgorsel-C4iJGDzC.webp';
+import sirket1 from '../../assets/images/sirket1.webp';
+import sirket3 from '../../assets/images/sirket3.webp';
+import sirket4 from '../../assets/images/sirket4.webp';
+import sirket5 from '../../assets/images/sirket5.webp';
 
 const ImageSlider = ({ translations }) => {
-  const [currentIndex, setCurrentIndex] = useState(1);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
   const slides = [
     {
       id: 1,
+      image1: sirket1,
+      image1Position: 'bottom',
+      image2: sirket3,
+      title: translations?.slider?.slide9Title || 'AKFERMAG Kimya',
+      description: translations?.slider?.slide9Desc || 'Tarımsal çözümlerde güvenilir ortağınız'
+    },
+    {
+      id: 2,
+      image1: sirket4,
+      image2: sirket5,
+      title: translations?.slider?.slide10Title || 'Üretim Tesislerimiz',
+      description: translations?.slider?.slide10Desc || 'Modern altyapı ile kaliteli üretim'
+    },
+    {
+      id: 3,
+      image1: granulFNZvuk0,
+      image2: granullBnGw9vV7,
+      title: translations?.slider?.slide7Title || 'Granül Gübre Çeşitleri',
+      description: translations?.slider?.slide7Desc || 'Yeni nesil granül gübrelerimizle tanışın'
+    },
+    {
+      id: 4,
+      image1: kristalJHbopA8m,
+      image2: manyezitgorselC4iJGDzC,
+      title: translations?.slider?.slide8Title || 'Kristal ve Manyezit',
+      description: translations?.slider?.slide8Desc || 'Kristal ve manyezit gübre çözümleri'
+    },
+    {
+      id: 5,
       image1: misir1,
       image2: misir2,
       image2Position: 'top',
@@ -30,53 +64,39 @@ const ImageSlider = ({ translations }) => {
       description: translations?.slider?.slide1Desc || 'Verimli mısır üretimi için özel çözümler'
     },
     {
-      id: 2,
-      image: image3,
-      singleImage: true,
+      id: 6,
+      image1: image3,
+      image2: image5,
       title: translations?.slider?.slide2Title || 'Modern Tarım',
       description: translations?.slider?.slide2Desc || 'Teknoloji ile donatılmış tarım alanları'
     },
     {
-      id: 3,
+      id: 7,
       image1: image7,
       image2: image2,
       title: translations?.slider?.slide3Title || 'İnovatif Çözümler',
       description: translations?.slider?.slide3Desc || 'Tarımda yeni nesil teknolojiler'
     },
     {
-      id: 4,
+      id: 8,
       image1: pancar1,
       image2: pancar2,
       title: translations?.slider?.slide4Title || 'Şeker Pancarı',
       description: translations?.slider?.slide4Desc || 'Kaliteli şeker pancarı üretimi'
     },
     {
-      id: 5,
+      id: 9,
       image1: image1,
       image2: image4,
       title: translations?.slider?.slide5Title || 'Verimli Topraklar',
       description: translations?.slider?.slide5Desc || 'Sağlıklı toprak, kaliteli ürün'
     },
     {
-      id: 6,
+      id: 10,
       image1: tarladeneme,
       image2: image6,
       title: translations?.slider?.slide6Title || 'Profesyonel Ürünler',
       description: translations?.slider?.slide6Desc || 'Tarımsal başarı için güçlü ortaklık'
-    },
-    {
-      id: 7,
-      image1: granulFNZvuk0,
-      image2: granullBnGw9vV7,
-      title: translations?.slider?.slide7Title || 'Granül Gübre Çeşitleri',
-      description: translations?.slider?.slide7Desc || 'Yeni nesil granül gübrelerimizle tanışın'
-    },
-    {
-      id: 8,
-      image1: kristalJHbopA8m,
-      image2: manyezitgorselC4iJGDzC,
-      title: translations?.slider?.slide8Title || 'Kristal ve Manyezit',
-      description: translations?.slider?.slide8Desc || 'Kristal ve manyezit gübre çözümleri'
     }
   ];
 
@@ -136,6 +156,7 @@ const ImageSlider = ({ translations }) => {
                     src={slide.image1}
                     alt={`${slide.title} - 1`}
                     className="w-full h-full object-cover"
+                    style={slide.image1Position ? { objectPosition: slide.image1Position } : {}}
                   />
                   {/* Gölge - sağda (desktop) ve altta (mobil) */}
                   <div className="absolute inset-0 shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)] md:shadow-[inset_-20px_0_30px_-10px_rgba(0,0,0,0.5)]"></div>

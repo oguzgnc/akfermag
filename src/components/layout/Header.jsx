@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Phone, Mail, Menu, X, Globe } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import logo from '../assets/logo_page-0001.webp';
+import logo from '../../assets/images/logo_page-0001.webp';
 
 const Header = ({ language, setLanguage, translations }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

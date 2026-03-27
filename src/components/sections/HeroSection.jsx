@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, Droplets, Sparkles, ArrowRight, ChevronLeft, ChevronRight, ArrowRight as ArrowIcon } from 'lucide-react';
-import { Button } from './ui/Button';
-import ProductName from './ProductName';
-import granulous17 from '../assets/agrosol-max-granulous-17.webp';
-import fullyWater from '../assets/agrosol-max-fully.webp';
-import mix from '../assets/agrosol-max-mix.webp';
-import topmix from '../assets/agrosol-max-topmix.webp';
-import seventeen33 from '../assets/agrosol-max-17-33.webp';
-import zinko from '../assets/agrosol-max-cinko.webp';
-import crystalFront from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).webp';
+import { Button } from '../ui/Button';
+import ProductName from '../product/ProductName';
+import granulous17 from '../../assets/images/agrosol-max-granulous-17.webp';
+import fullyWater from '../../assets/images/agrosol-max-fully.webp';
+import mix from '../../assets/images/agrosol-max-mix.webp';
+import topmix from '../../assets/images/agrosol-max-topmix.webp';
+import seventeen33 from '../../assets/images/agrosol-max-17-33.webp';
+import zinko from '../../assets/images/agrosol-max-cinko.webp';
+import crystalFront from '../../assets/images/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).webp';
 
 const HeroSection = ({ translations }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

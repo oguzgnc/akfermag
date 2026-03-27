@@ -1,6 +1,6 @@
 import React from 'react';
 import { Calendar, Target, Users, Factory, Award, TrendingUp } from 'lucide-react';
-import { Card, CardContent } from './ui/Card';
+import { Card, CardContent } from '../ui/Card';
 
 const AboutSection = ({ translations }) => {
   const highlights = [

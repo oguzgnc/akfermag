@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Instagram } from 'lucide-react';
 import { X } from 'lucide-react';
-import logoArkaplan from '../assets/logoarkaplan.webp';
+import logoArkaplan from '../../assets/images/logoarkaplan.webp';
 
 const Footer = ({ translations }) => {
   return (

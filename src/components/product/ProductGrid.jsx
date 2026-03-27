@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Leaf, Sparkles } from 'lucide-react';
-import { Card, CardContent, CardFooter } from './ui/Card';
-import { Button } from './ui/Button';
+import { Card, CardContent, CardFooter } from '../ui/Card';
+import { Button } from '../ui/Button';
 import ProductName from './ProductName';
-import { getProductsData } from '../data/productsDataMultiLang';
+import { getProductsData } from '../../data/productsDataMultiLang';
 
 const ProductGrid = ({ translations, language }) => {
   const products = getProductsData(language);

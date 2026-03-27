@@ -1,6 +1,6 @@
-﻿import React from 'react';
+import React from 'react';
 import { Mail, Phone, MapPin, CheckCircle } from 'lucide-react';
-import { Card, CardContent } from './ui/Card';
+import { Card, CardContent } from '../ui/Card';
 
 const ContactSection = ({ translations }) => {
   return (

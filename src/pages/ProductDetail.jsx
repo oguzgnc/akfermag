@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight as ArrowIcon, Package, Award, Leaf, FileCheck, Download } from 'lucide-react';
 import { Button } from '../components/ui/Button';
-import ProductName from '../components/ProductName';
+import ProductName from '../components/product/ProductName';
 import { getProductsData } from '../data/productsDataMultiLang';
 
 const ProductDetail = ({ translations, language }) => {
@@ -230,7 +230,7 @@ const ProductDetail = ({ translations, language }) => {
                     </div>
                   </div>
                   <a 
-                    href="/AKFERMAG KİMYA MARKA TESCİL BELGESİ.pdf" 
+                    href="/documents/AKFERMAG KİMYA MARKA TESCİL BELGESİ.pdf" 
                     download
                     className="w-full sm:w-auto"
                   >

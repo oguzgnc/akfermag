@@ -1,9 +1,9 @@
 import React from 'react';
-import HeroSection from '../components/HeroSection';
-import AboutSection from '../components/AboutSection';
-import ImageSlider from '../components/ImageSlider';
-import ProductGrid from '../components/ProductGrid';
-import ContactSection from '../components/ContactSection';
+import HeroSection from '../components/sections/HeroSection';
+import AboutSection from '../components/sections/AboutSection';
+import ImageSlider from '../components/common/ImageSlider';
+import ProductGrid from '../components/product/ProductGrid';
+import ContactSection from '../components/sections/ContactSection';
 
 const Home = ({ translations, language }) => {
   return (

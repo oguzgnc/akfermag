@@ -1,10 +1,10 @@
-import product1 from '../assets/agrosol-max-granulous-17.webp';
-import product2 from '../assets/agrosol-max-fully.webp';
-import product3 from '../assets/agrosol-max-mix.webp';
-import product4 from '../assets/agrosol-max-topmix.webp';
-import product5 from '../assets/agrosol-max-17-33.webp';
-import product6 from '../assets/agrosol-max-cinko.webp';
-import product7 from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).webp';
+import product1 from '../assets/images/agrosol-max-granulous-17.webp';
+import product2 from '../assets/images/agrosol-max-fully.webp';
+import product3 from '../assets/images/agrosol-max-mix.webp';
+import product4 from '../assets/images/agrosol-max-topmix.webp';
+import product5 from '../assets/images/agrosol-max-17-33.webp';
+import product6 from '../assets/images/agrosol-max-cinko.webp';
+import product7 from '../assets/images/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).webp';
 const productsDataByLanguage = {
   TR: [
     {
@@ -42,7 +42,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Gübre Kalite Standardı'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
-      registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-Mix-Tescil.pdf',
       certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
     {
@@ -82,7 +82,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Gübre Kalite Standardı', 'Mikro Element Garantili'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
-      registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-TopMix-Tescil.pdf',
       certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
     {
@@ -184,7 +184,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
-      registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-17-Tescil.pdf',
       certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
     {
@@ -220,7 +220,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Gübre Kalite Standardı', 'Organik Tarıma Uygun'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
-      registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-EC-Tescil.pdf',
       certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
     {
@@ -255,7 +255,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Gübre Kalite Standardı', 'GMP+ Sertifikalı'],
       packaging: ['25 kg Torba', '1000 kg BigBag', '1250 kg BigBag'],
-      registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-Zinc-Tescil.pdf',
       certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
   ],
@@ -294,7 +294,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Fertilizer Quality Standard'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
-      registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-Mix-Tescil.pdf',
       certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
     {
@@ -333,7 +333,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Fertilizer Quality Standard', 'GlobalGAP Approved'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
-      registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-TopMix-Tescil.pdf',
       certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
     {
@@ -435,7 +435,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Fertilizer Quality Standard', 'Suitable for Organic Farming'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
-      registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-17-Tescil.pdf',
       certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
     {
@@ -471,7 +471,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Fertilizer Quality Standard', 'Suitable for Organic Farming'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
-      registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-EC-Tescil.pdf',
       certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
     {
@@ -506,7 +506,7 @@ const productsDataByLanguage = {
       },
       certifications: ['EC Fertilizer Quality Standard', 'GMP+ Certified'],
       packaging: ['25 kg Bag', '1000 kg Big Bag', '1250 kg Big Bag'],
-      registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-Zinc-Tescil.pdf',
       certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
   ],
@@ -545,7 +545,7 @@ const productsDataByLanguage = {
       },
       certifications: ['Стандарт якості добрив ЄС'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
-      registrationCertificate: '/Agrosol-Max-Mix-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-Mix-Tescil.pdf',
       certificateName: 'Agrosol-Max-Mix-Tescil.pdf'
     },
     {
@@ -584,7 +584,7 @@ const productsDataByLanguage = {
       },
       certifications: ['Стандарт якості добрив ЄС', 'GlobalGAP затверджено'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
-      registrationCertificate: '/Agrosol-Max-TopMix-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-TopMix-Tescil.pdf',
       certificateName: 'Agrosol-Max-TopMix-Tescil.pdf'
     },
     {
@@ -686,7 +686,7 @@ const productsDataByLanguage = {
       },
       certifications: ['Стандарт якості добрив ЄС', 'Підходить для органічного землеробства'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
-      registrationCertificate: '/Agrosol-Max-17-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-17-Tescil.pdf',
       certificateName: 'Agrosol-Max-17-Tescil.pdf'
     },
     {
@@ -722,7 +722,7 @@ const productsDataByLanguage = {
       },
       certifications: ['Стандарт якості добрив ЄС', 'Підходить для органічного землеробства'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
-      registrationCertificate: '/Agrosol-Max-EC-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-EC-Tescil.pdf',
       certificateName: 'Agrosol-Max-EC-Tescil.pdf'
     },
     {
@@ -757,7 +757,7 @@ const productsDataByLanguage = {
       },
       certifications: ['Стандарт якості добрив ЄС', 'Сертифіковано GMP+'],
       packaging: ['25 кг мішок', '1000 кг Біг-Бег', '1250 кг Біг-Бег'],
-      registrationCertificate: '/Agrosol-Max-Zinc-Tescil.pdf',
+      registrationCertificate: '/documents/Agrosol-Max-Zinc-Tescil.pdf',
       certificateName: 'Agrosol-Max-Zinc-Tescil.pdf'
     }
   ]

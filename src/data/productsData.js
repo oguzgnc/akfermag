@@ -1,10 +1,10 @@
-import product1 from '../assets/AGROSOL MAX GRANULOUS 17 33 TÜRKÇE ÖN YÜZ.webp';
-import product2 from '../assets/AKMAG SH_ÖN YÜZ.webp';
-import product3 from '../assets/AGROSOL MAX MIX ÖN YÜZ.webp';
-import product4 from '../assets/AGROSOL MAAX TOPMIX.webp';
-import product5 from '../assets/AGROSOL MAX 17+33 ÖN YÜZ.webp';
-import product6 from '../assets/AGROSOL MAX ÇİNKO TUZU ÖN YÜZ.webp';
-import product7 from '../assets/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).webp';
+import product1 from '../assets/images/AGROSOL MAX GRANULOUS 17 33 TÜRKÇE ÖN YÜZ.webp';
+import product2 from '../assets/images/AKMAG SH_ÖN YÜZ.webp';
+import product3 from '../assets/images/AGROSOL MAX MIX ÖN YÜZ.webp';
+import product4 from '../assets/images/AGROSOL MAAX TOPMIX.webp';
+import product5 from '../assets/images/AGROSOL MAX 17+33 ÖN YÜZ.webp';
+import product6 from '../assets/images/AGROSOL MAX ÇİNKO TUZU ÖN YÜZ.webp';
+import product7 from '../assets/images/AGROSOL MAX İNGİLİZCE_ÖN YÜZ (1).webp';
 
 export const productsData = [
   {
