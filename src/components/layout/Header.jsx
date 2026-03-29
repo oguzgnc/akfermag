@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, Menu, X, Globe } from 'lucide-react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import logo from '../../assets/images/logo_page-0001.webp';
 
 const Header = ({ language, setLanguage, translations }) => {
@@ -92,20 +92,19 @@ const Header = ({ language, setLanguage, translations }) => {
               >
                 <span className="relative z-10">{t.nav.products}</span>
               </a>
-              <a 
-                href="#contact" 
-                onClick={(e) => handleNavClick(e, 'contact')}
+              <Link
+                to="/iletisim"
                 className="group relative px-8 py-3 text-white font-medium transition-all duration-300 cursor-pointer"
                 style={{
                   clipPath: 'polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%)',
                   marginLeft: '-15px',
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)'
+                  backgroundColor: location.pathname === '/iletisim' ? '#8BC34A' : 'rgba(255, 255, 255, 0.1)'
                 }}
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#8BC34A'}
-                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'}
+                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = location.pathname === '/iletisim' ? '#8BC34A' : 'rgba(255, 255, 255, 0.1)'}
               >
                 <span className="relative z-10">{t.nav.contact}</span>
-              </a>
+              </Link>
             </div>
 
             {/* Language Selector */}
@@ -164,9 +163,9 @@ const Header = ({ language, setLanguage, translations }) => {
               <a href="#products" className="px-4 py-3 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium cursor-pointer" onClick={(e) => { handleNavClick(e, 'products'); setMobileMenuOpen(false); }}>
                 {t.nav.products}
               </a>
-              <a href="#contact" className="px-4 py-3 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium cursor-pointer" onClick={(e) => { handleNavClick(e, 'contact'); setMobileMenuOpen(false); }}>
+              <Link to="/iletisim" className="px-4 py-3 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium cursor-pointer" onClick={() => setMobileMenuOpen(false)}>
                 {t.nav.contact}
-              </a>
+              </Link>
               <div className="flex items-center gap-2 px-4 py-3 border-t border-white/20 mt-2">
                 <Globe className="w-4 h-4" />
                 <button 

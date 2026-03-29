@@ -173,6 +173,41 @@ const AboutSection = ({ translations }) => {
             </ul>
           </div>
         </Card>
+
+        {/* Quality Certificates */}
+        <Card className="overflow-hidden mt-8">
+          <div className="bg-gradient-to-br from-[#1a2c6e] to-[#1e3a8a] p-8 text-white">
+            <div className="flex items-center gap-4 mb-8">
+              <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
+                <Award className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-bold">Kalite Sertifikalarımız</h3>
+            </div>
+            <ul className="space-y-5">
+              {[
+                { code: 'ISO 9001:2015',   name: 'Kalite Yönetim Sistemi' },
+                { code: 'ISO 10002:2018',  name: 'Müşteri Memnuniyeti Yönetim Sistemi' },
+                { code: 'ISO 14001:2015',  name: 'Çevre Yönetim Sistemi' },
+                { code: 'ISO 45001:2018',  name: 'İş Sağlığı ve Güvenliği Yönetim Sistemi' },
+                { code: 'Helal Sertifikası', name: null },
+              ].map((cert, i) => (
+                <li key={i} className="flex items-center gap-4">
+                  <div className="w-9 h-9 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="text-white font-bold text-base md:text-lg leading-tight">{cert.code}</p>
+                    {cert.name && (
+                      <p className="text-white/75 text-sm md:text-base font-semibold">{cert.name}</p>
+                    )}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Card>
       </div>
     </section>
   );

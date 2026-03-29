@@ -4,6 +4,7 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
 import ProductDetail from './pages/ProductDetail';
+import Contact from './pages/Contact';
 import { translations } from './i18n/translations';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home translations={t} language={language} />} />
           <Route path="/product/:productId" element={<ProductDetail translations={t} language={language} />} />
+          <Route path="/iletisim" element={<Contact translations={t} language={language} />} />
         </Routes>
         <Footer translations={t} />
       </div>

@@ -34,11 +34,8 @@ const ContactSection = ({ translations }) => {
                     <Phone className="w-6 h-6 md:w-8 md:h-8 text-white" />
                   </div>
                   <h3 className="font-semibold text-white mb-2 md:mb-3 text-base md:text-lg">{translations.contact.phone}</h3>
-                  <a href="tel:+902165170537" className="block text-white/80 hover:text-white transition mb-1 text-sm md:text-base">
+                  <a href="tel:+902165170537" className="block text-white/80 hover:text-white transition text-sm md:text-base">
                     +90 216 517 05 37
-                  </a>
-                  <a href="tel:+905318732856" className="block text-white/80 hover:text-white transition text-sm md:text-base">
-                    +90 531 873 28 56
                   </a>
                 </div>
               </CardContent>
